@@ -7,7 +7,7 @@
 # 🌐 DISPONIBILIDADE
 🔹 Bot disponível em nossa hospedagem oficial:
 👉 [Acessar Hospedagem](https://lotushops.com.br/store)
-✅ Key gratuita disponível para testes
+Key gratuita disponível para testes
 
 #🔹 Também pode ser utilizado em outros ambientes:
 🍃 Para isso, é necessário adquirir uma Key Oficial em nosso site:
