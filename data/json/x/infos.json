@@ -1,0 +1,203 @@
+{
+  "menu": {
+    "aliases": ["menuadm", "menudono", "menuzueira", "menuefeito", "menulogo"],
+    "texto": "🌟=== *INFORMAÇÕES DE MENUS* 💫 ===\n\n📜 *Comando:* ${prefix}menu\n🔹 Mostra o menu principal com uma lista parcial dos comandos disponíveis.\n\n👮‍♂️ *Comando:* ${prefix}menuadm\n🔹 Exibe todos os comandos disponíveis apenas para administradores de grupo.\n\n👑 *Comando:* ${prefix}menudono\n🔹 Mostra os comandos exclusivos para o proprietário(a) do bot.\n\n🎉 *Comando:* ${prefix}menuzueira\n🔹 Exibe comandos de diversão, brincadeiras e joguinhos.\n\n🎧 *Comando:* ${prefix}menuefeito\n🔹 Mostra comandos com efeitos de imagem, vídeo e áudios.\n\n🖼️ *Comando:* ${prefix}menulogo\n🔹 Exibe os comandos para criar *imagens personalizadas* com texto.\n\n✨ Use o menu certo e aproveite todos os recursos do bot!"
+  },
+  "bemvindo": {
+    "aliases": ["bv"],
+    "texto": "🎉=== 💫 *CONFIGURAÇÃO DE BOAS-VINDAS* 💫 ===🎉\n\n✨ **Quer saber qual admin está aceitando ou recusando solicitações?**\nAtive o comando *${prefix}x9* para acompanhar tudo em tempo real!\n\n📥 *${prefix}bemvindo* — Ativa ou desativa a mensagem de boas-vindas no grupo.\n📤 *${prefix}saida* — Ativa ou desativa a mensagem quando alguém sai do grupo.\n🖼️ *${prefix}imgbv* — Liga ou desliga a imagem nas mensagens de boas-vindas.\n💬 *${prefix}legendabv* — Define uma mensagem personalizada para as boas-vindas.\n💭 *${prefix}legendasaiu* — Define uma mensagem personalizada para as saídas.\n\n🔧 **Variáveis que você pode usar na mensagem personalizada:**\n1️⃣ *#numerodele#* — Menciona o membro que entrou ou saiu.\n2️⃣ *#nomedogp#* — Mostra o nome do grupo.\n3️⃣ *#desc#* — Exibe a descrição do grupo.\n\n🖌️ **Personalizar imagens de boas-vindas e saídas:**\n🌄 *${prefix}fundobv* — Altera a imagem de fundo das boas-vindas.\n🌆 *${prefix}fundosaiu* — Altera a imagem de fundo das saídas.\n\n✨ *Deixe seu grupo mais organizado e com estilo!*"
+  },
+  "tradutor": {
+    "aliases": ["traduzir"],
+    "texto": "🌐=== *TRADUTOR DE IDIOMAS* ===🌐\n\n🔹 *${prefix}tradutor* — Traduz textos entre diversos idiomas disponíveis\n🔹 Suporte para múltiplos idiomas incluindo inglês, espanhol, francês, etc.\n🔹 Basta enviar o comando seguido do texto que deseja traduzir"
+  },
+  "nick": {
+    "aliases": ["fazernick"],
+    "texto": "📝=== *CRIADOR DE NICKS PERSONALIZADOS* ===📝\n\n🔹 *${prefix}nick* — Cria apelidos estilizados e personalizados\n🔹 Gera nicks com símbolos especiais e letras diferenciadas\n🔹 Perfeito para jogos, redes sociais e identificação única"
+  },
+  "play": {
+    "aliases": ["playvid", "playmp4", "playvideo", "playdoc", "play2", "play", "p"],
+    "texto": "🎵=== *DOWNLOAD DO YOUTUBE* ===🎵\n\n🎵 *${prefix}play* — Baixa áudio de vídeos do YouTube (nome ou link)\n🎵 *${prefix}play2* — Funciona igual ao comando play acima\n📄 *${prefix}playdoc* — Baixa vídeo em formato de documento\n🎬 *${prefix}playvideo* — Baixa o vídeo completo em qualidade MP4\n🎬 *${prefix}playvid* — Alternativa para baixar vídeos completos\n🎬 *${prefix}playmp4* — Outro alias para download de vídeos"
+  },
+  "s": {
+    "aliases": ["sticker", "stk", "st"],
+    "texto": "🖼️=== *CRIADOR DE FIGURINHAS* ===🖼️\n\n🔹 *${prefix}s* — Transforma imagens, GIFs ou vídeos curtos em figurinhas\n🔹 *${prefix}sticker* — Comando alternativo para criar figurinhas\n🔹 *${prefix}stk* — Versão curta do comando de figurinhas\n🔹 *${prefix}st* — Outra variação rápida do comando\n⚠️ *Vídeos devem ter até 10 segundos para conversão*"
+  },
+  "ping": {
+    "aliases": ["infobot"],
+    "texto": "📡=== *INFORMAÇÕES DO BOT* ===📡\n\n🔹 *${prefix}ping* — Mostra status e velocidade de resposta do bot\n🔹 *${prefix}infobot* — Exibe informações técnicas e de conexão\n🔹 Verifica instabilidade, latência e desempenho do sistema"
+  },
+  "rename": {
+    "aliases": ["renomear", "roubar"],
+    "texto": "✏️=== *RENOMEADOR DE FIGURINHAS* ===✏️\n\n🔹 *${prefix}rename* — Renomeia figurinha com seu nick padrão\n🔹 *${prefix}rename texto* — Renomeia com texto personalizado\n🔹 *${prefix}rename texto1/texto2* — Usa dois textos separados\n🔹 *${prefix}renomear* — Comando alternativo em português\n🔹 *${prefix}roubar* — Outra variação do renomeador"
+  },
+  "frases": {
+    "aliases": ["frase"],
+    "texto": "💬=== *BUSCADOR DE FRASES* ===💬\n\n🔹 *${prefix}frases* — Busca frases temáticas na internet\n🔹 *${prefix}frase* — Versão singular do buscador\n🔹 Encontre citações inspiradoras, românticas, motivacionais, etc.\n🔹 Basta informar o tema desejado após o comando"
+  },
+  "pinterestvid": {
+    "aliases": ["pinterestv", "ptvid"],
+    "texto": "📌=== *DOWNLOAD PINTEREST VÍDEO* ===📌\n\n🔹 *${prefix}pinterestvid* — Baixa vídeos do Pinterest via link\n🔹 *${prefix}pinterestv* — Versão abreviada do comando\n🔹 *${prefix}ptvid* — Alternativa rápida para download\n🔹 Suporte para links diretos de vídeos do Pinterest"
+  },
+  "facevideo": {
+    "aliases": ["face_video", "face_audio", "faceaudio"],
+    "texto": "📘=== *DOWNLOAD FACEBOOK* ===📘\n\n🔹 *${prefix}facevideo* — Baixa vídeos do Facebook via link\n🔹 *${prefix}face_video* — Alternativa para vídeos\n🔹 *${prefix}faceaudio* — Baixa apenas o áudio de vídeos\n🔹 *${prefix}face_audio* — Versão alternativa para áudio"
+  },
+  "tiktok_audio": {
+    "aliases": ["tiktokaudio", "tiktok_video", "tiktokvideo"],
+    "texto": "🎵=== *DOWNLOAD TIKTOK* ===🎵\n\n🔹 *${prefix}tiktok_audio* — Baixa áudio de vídeos do TikTok\n🔹 *${prefix}tiktokaudio* — Versão alternativa para áudio\n🔹 *${prefix}tiktok_video* — Baixa vídeos completos do TikTok\n🔹 *${prefix}tiktokvideo* — Outra opção para download de vídeos"
+  },
+  "grupo": {
+    "aliases": ["gp", "group"],
+    "texto": "👥=== *CONTROLE DO GRUPO* ===👥\n\n🔹 *${prefix}grupo a* — Abre o grupo para todos os membros\n🔹 *${prefix}grupo f* — Fecha o grupo (apenas admins podem enviar)\n🔹 *${prefix}gp* — Comando rápido para controle do grupo\n🔹 *${prefix}group* — Versão em inglês do comando"
+  },
+  "sorteio": {
+    "aliases": ["sorteia"],
+    "texto": "🎲=== *SORTEIO DE MEMBROS* ===🎲\n\n🔹 *${prefix}sorteio* — Sorteia um membro aleatório do grupo\n🔹 *${prefix}sorteio 5* — Sorteia 5 membros aleatórios\n🔹 *${prefix}sorteio 10/prêmio* — Sorteia com prêmio específico\n🔹 *${prefix}sorteia* — Comando alternativo em português"
+  },
+  "receita": {
+    "aliases": ["receitas"],
+    "texto": "🍳=== *BUSCADOR DE RECEITAS* ===🍳\n\n🔹 *${prefix}receita* — Busca receitas culinárias na web\n🔹 *${prefix}receitas* — Versão plural do comando\n🔹 Encontre receitas por ingrediente, tipo de comida ou nome\n🔹 Receitas detalhadas com ingredientes e modo de preparo"
+  },
+  "lyrics": {
+    "aliases": ["letramusica"],
+    "texto": "🎵=== *LETRAS DE MÚSICAS* ===🎵\n\n🔹 *${prefix}lyrics* — Busca letras de músicas completas\n🔹 *${prefix}letramusica* — Versão em português\n🔹 Encontre por título da música ou nome do artista\n🔹 Letras sincronizadas e traduções disponíveis"
+  },
+  "chatgpt": {
+    "aliases": ["gpt"],
+    "texto": "🤖=== *ASSISTENTE IA CHATGPT* ===🤖\n\n🔹 *${prefix}chatgpt* — Conversa com inteligência artificial\n🔹 *${prefix}gpt* — Comando rápido do assistente\n🔹 Responde perguntas, explica conceitos, ajuda com tarefas\n🔹 Conhecimento em diversos assuntos e áreas"
+  },
+  "transcrever": {
+    "aliases": ["totext"],
+    "texto": "📝=== *TRANSCRIÇÃO DE ÁUDIO* ===📝\n\n🔹 *${prefix}transcrever* — Converte áudio em texto automaticamente\n🔹 *${prefix}totext* — Versão alternativa em inglês\n🔹 Suporte para áudios em português e outros idiomas\n🔹 Transcrição precisa com pontuação"
+  },
+  "banir": {
+    "aliases": ["ban", "b", "kick"],
+    "texto": "⛔=== *CONTROLE DE MEMBROS* ===⛔\n\n🔹 *${prefix}banir* — Remove membro do grupo (com menção)\n🔹 *${prefix}ban* — Comando internacional para remover\n🔹 *${prefix}b* — Versão ultra-rápida do ban\n🔹 *${prefix}kick* — Outra alternativa para remoção\n🔹 *Deleta mensagem do usuário quando mencionada*"
+  },
+  "status": {
+    "aliases": ["configp"],
+    "texto": "📊=== *CONFIGURAÇÕES DO GRUPO* ===📊\n\n🔹 *${prefix}status* — Mostra status atual das configurações\n🔹 *${prefix}configp* — Alternativa para ver configurações\n🔹 Exibe tudo que está ativado/desativado no grupo\n🔹 Use outros comandos para alterar configurações específicas"
+  },
+  "prefixgp": {
+    "aliases": ["descgp", "nomegp"],
+    "texto": "✏️=== *PERSONALIZAÇÃO DO GRUPO* ===✏️\n\n🔹 *${prefix}prefixgp* — Altera o prefixo do bot no grupo\n🔹 *${prefix}nomegp* — Muda o nome do grupo\n🔹 *${prefix}descgp* — Altera a descrição do grupo\n🔹 Personalize totalmente a identidade do seu grupo"
+  },
+  "marcar": {
+    "aliases": ["marca"],
+    "texto": "📣=== *MARCAÇÃO EM MASSA* ===📣\n\n🔹 *${prefix}marcar* — Marca todos os membros do grupo\n🔹 *${prefix}marca* — Comando alternativo\n🔹 Pode incluir mensagem personalizada na marcação\n🔹 Ideal para anúncios importantes e avisos"
+  },
+  "rankinativo": {
+    "aliases": ["rankinativos"],
+    "texto": "📊=== *RANKING DE INATIVOS* ===📊\n\n🔹 *${prefix}rankinativo* — Mostra ranking de usuários inativos\n🔹 *${prefix}rankinativos* — Versão plural do comando\n🔹 Identifica membros que não interagem há mais tempo\n🔹 Ajuda na moderação e gestão do grupo"
+  },
+  "totag": {
+    "aliases": ["cita", "hidetag"],
+    "texto": "🔔=== *MENÇÃO DISCRETA* ===🔔\n\n🔹 *${prefix}totag* — Reenvia mensagem mencionando todos\n🔹 *${prefix}cita* — Alternativa em português\n🔹 *${prefix}hidetag* — Versão de menção oculta\n🔹 Marca todos os membros de forma eficiente"
+  },
+  "listanegra": {
+    "aliases": ["tirardalista", "listaban"],
+    "texto": "🚫=== *LISTA NEGRA* ===🚫\n\n🔹 *${prefix}listanegra +55...* — Adiciona número à lista negra\n🔹 *${prefix}tirardalista* — Remove número da lista negra\n🔹 *${prefix}listaban* — Visualiza lista negra atual\n🔹 Bloqueia usuários indesejados de usar o bot"
+  },
+  "chekey": {
+    "aliases": ["addkey"],
+    "texto": "🔑=== *GERENCIAMENTO DE KEY* ===🔑\n\n🔹 *${prefix}chekey* — Verifica key atual do bot\n🔹 *${prefix}addkey* — Altera ou adiciona nova key\n🔹 *Precisa de key? Contate:* ${prefix}criador\n🔹 Sistema de autenticação e segurança"
+  },
+  "seradm": {
+    "aliases": ["sermembro"],
+    "texto": "👮‍♂️=== *ALTERAR PRIVILÉGIOS* ===👮‍♂️\n\n🔹 *${prefix}seradm* — Torna usuário administrador\n🔹 *${prefix}sermembro* — Rebaixa para membro comum\n🔹 Gerencie cargos e permissões no grupo"
+  },
+  "blockcmd": {
+    "aliases": ["desblocmd"],
+    "texto": "🚫=== *BLOQUEIO DE COMANDOS* ===🚫\n\n🔹 *${prefix}blockcmd nome* — Bloqueia comando específico\n🔹 *${prefix}desblocmd nome* — Desbloqueia comando\n🔹 *${prefix}listacmd* — Lista comandos bloqueados\n🔹 Controle total sobre comandos disponíveis"
+  },
+  "regras": {
+    "aliases": ["regra"],
+    "texto": "📜=== *REGRAS DO GRUPO* ===📜\n\n🔹 *${prefix}regras* — Exibe regras e informações do grupo\n🔹 *${prefix}regra* — Versão singular do comando\n🔹 Mantenha os membros informados sobre as normas"
+  },
+  "promover": {
+    "aliases": ["rebaixar"],
+    "texto": "👑=== *PROMOÇÃO/REBAIXAMENTO* ===👑\n\n🔹 *${prefix}promover @user* — Promove membro a admin\n🔹 *${prefix}rebaixar @user* — Rebaixa admin a membro\n🔹 Gerencie a equipe de administração do grupo"
+  },
+  "delete": {
+    "aliases": ["d", "deletar"],
+    "texto": "🗑️=== *DELETAR MENSAGENS* ===🗑️\n\n🔹 *${prefix}delete* — Deleta mensagem específica\n🔹 *${prefix}d* — Versão rápida do delete\n🔹 *${prefix}deletar* — Comando em português\n🔹 Mantenha o chat limpo e organizado"
+  },
+  "linkgp": {
+    "aliases": ["link"],
+    "texto": "🔗=== *LINK DO GRUPO* ===🔗\n\n🔹 *${prefix}linkgp* — Envia o link de convite do grupo\n🔹 *${prefix}link* — Comando rápido para o link\n🔹 Compartilhe facilmente o grupo com novos membros"
+  },
+  "antilink": {
+    "aliases": ["antilinkgp"],
+    "texto": "🔗=== *PROTEÇÃO CONTRA LINKS* ===🔗\n\n🔹 *${prefix}antilink* — Bloqueia todos links (exceto WhatsApp)\n🔹 *${prefix}antilinkgp* — Bloqueia apenas links WhatsApp\n🔹 Proteja seu grupo contra spam e links maliciosos"
+  },
+  "blockmemb": {
+    "aliases": ["dblockmemb"],
+    "texto": "🚫=== *BLOQUEIO DE USUÁRIOS* ===🚫\n\n🔹 *${prefix}blockmemb @user* — Bloqueia usuário de usar o bot\n🔹 *${prefix}dblockmemb @user* — Desbloqueia usuário\n🔹 Controle quem pode interagir com o bot"
+  },
+  "modoff": {
+    "aliases": ["ativo"],
+    "texto": "💤=== *MODO AUSENTE* ===💤\n\n🔹 *${prefix}modoff mensagem* — Ativa modo ausente\n🔹 *${prefix}ativo* — Desativa modo ausente\n🔹 Configure mensagem automática quando estiver offline"
+  },
+"instagram": {
+    "aliases": ["instaaudio"],
+    "texto": "📸=== *DOWNLOAD INSTAGRAM* ===📸\n\n🔹 *${prefix}instagram link* — Baixa vídeos do Instagram\n🔹 *${prefix}instaaudio link* — Baixa áudio de vídeos\n🔹 Suporte para Reels, posts e stories públicos"
+  },
+  "jogodavelha": {
+    "aliases": ["resetvelha"],
+    "texto": "🎮=== *JOGO DA VELHA* ===🎮\n\n🔹 *${prefix}jogodavelha @usuario* — Inicia uma partida contra o usuário marcado\n🔹 *${prefix}resetvelha* — Reinicia o jogo\n🔹 Desafie um usuário para uma partida divertida no chat"
+  },
+  "mutar": {
+    "aliases": ["mute", "desmute"],
+    "texto": "🔇=== *MUTAR USUÁRIO* ===🔇\n\n🔹 *${prefix}mutar @usuario* — Muta o usuário no grupo\n🔹 *${prefix}desmute @usuario* — Desativa o mute e permite que o usuário fale novamente"
+  },
+  "fluffy-logo": {
+    "aliases": ["lava-logo", "cool-logo", "comic-logo", "fire-logo", "water-logo", "ice-logo", "elegant-logo", "gold-logo", "fortune-logo", "blue-logo", "silver-logo", "neon-logo", "skate-name", "retro-logo", "candy-logo", "glossy-logo", "galaxy-light", "galaxy", "glitch", "graffiti", "metallic", "glossy", "mascote", "dragonfire", "goldpink", "pubgavatar", "ffavatar", "amongus", "comics", "lolavatar", "cemiterio", "blood", "hallobat", "titanium", "eraser", "halloween", "snow", "america", "mascoteneon", "doubleexposure", "metal", "3dcrack", "colorful", "ballon", "multicolor", "graffitipaint", "graffitistyle", "frozen", "ligatures", "watercolor", "summerbeach", "cloudsky", "techstyle", "royal", "firework", "mascotemetal", "captain", "graffitiwall", "phlogo", "blackpink", "deadpool", "glitter", "vintage3d"],
+    "texto": "🖼️ *LOGOS* — Cria uma imagem com texto. Se o comando estiver no formato txt1/txt2, use nome/nome2"
+  },
+  "comunismo": {
+    "aliases": ["bnw", "blur", "circle", "invert", "pixelate", "rotate", "toanime", "tozombie", "togta", "comunismo", "bolsonaro", "affect", "beautiful", "del", "hither", "facepalm", "magik", "rip", "jail", "trash", "sepia", "wanted", "wasted", "lgbt", "karaba"],
+    "texto": "🖼️ *EFEITOS* — Cria efeitos em imagem. Envie a imagem e marque com o comando"
+  },
+  "videocontrario": {
+    "aliases": ["videolento", "videorapido"],
+    "texto": "📽 *ALTERAR VÍDEOS* — Comandos para alterar vídeos:\n\n🔹 *${prefix}videocontrario* — Deixa o vídeo ao contrário\n🔹 *${prefix}videolento* — Deixa o vídeo lento\n🔹 *${prefix}videorapido* — Deixa o vídeo bem rápido"
+  },
+  "grave": {
+    "aliases": ["vozmenino", "adolesc", "estourar", "audiorapido", "bass2", "esquilo", "audiolento", "slow", "bass"],
+    "texto": "📣 *ALTERAR ÁUDIOS* — Comandos para alterar áudios:\n\n🔹 *${prefix}grave* — Áudio com graves\n🔹 *${prefix}vozmenino* — Deixa o bot com voz de adolescente\n🔹 *${prefix}bass* — Aplica efeito de grave\n🔹 *${prefix}bass2* — Outra variação de grave\n🔹 *${prefix}estourar* — Deixa o áudio estourado\n🔹 *${prefix}audiorapido* — Deixa o áudio muito rápido\n🔹 *${prefix}esquilo* — Deixa o bot com voz de esquilo\n🔹 *${prefix}audiolento* — Deixa o áudio muito lento"
+  },
+  "rankgay": {
+    "aliases": ["rankgay", "rankgays", "rankcornos", "rankcorno", "rankgostosa", "rankgostosas", "rankbct", "rankbuceta"],
+    "texto": "🎉 *RANK* — Comando de brincadeira onde o bot vai marcar 5 membros aleatórios"
+  },
+    "rankativo": {
+    "aliases": ["rankativo"],
+    "texto": "🎉 *RANK* — ver os usuários ativos no grupo"
+  },
+  "addpalavrao": {
+  "aliases": ["delpalavrao", "listarpalavrao", "zerapalavrao"],
+  "texto": "📣 *𝗔𝗡𝗧𝗜 𝗣𝗔𝗟𝗔𝗩𝗥𝗔𝗢* — Comandos para gerenciar palavras proibidas no grupo:\n\n🔹 *${prefix}addpalavrao puta* — Adiciona uma palavra proibida\n\n🔹 *${prefix}delpalavrao puta* — Remove uma palavra proibida\n\n🔹 *${prefix}listarpalavrao* — Ver a lista de palavras proibidas\n\n🔹 *${prefix}zerapalavrao* — Resetar todas as palavras proibidas"
+},
+"addlimite": {
+  "aliases": ["dellimite"],
+  "texto": "📣 *𝗔𝗡𝗧𝗜 𝗖𝗔𝗥𝗔𝗖𝗧𝗘𝗥𝗘𝗦* — Comandos para limitar mensagens longas no grupo:\n\n🔹 *${prefix}addlimite 500* — Define o limite de caracteres (exemplo: 500)\n\n🔹 *${prefix}dellimite* — Remove o limite de caracteres"
+},
+"entrar": {
+  "aliases": ["entargp", "entrargp"],
+  "texto": "Esse comando é para o bot entrar em um grupo pelo link de convite."
+},
+
+"listagp": {
+  "aliases": ["sairgp"],
+  "texto": "📣 *LISTA GRUPO E SAIR* — Comandos para gerenciar grupos:\n\n🔹 *${prefix}listagp* — Lista todos os grupos onde o bot está.\n🔹 *${prefix}sairgp <número>* — O bot sai de um grupo específico da lista."
+},
+
+"tabela": "🔠 *tabela* — O bot envia uma tabela com letras e símbolos estilosos pra você criar nicks personalizados.", "idmeu": "🆔 *idmeu* — Mostra o seu ID único no sistema do bot.", "calcular": "🧮 *calcular* — Faz contas rápidas como soma, subtração, multiplicação e divisão.", "mepuxa": "📊 *mepuxa* — Exibe suas informações, como mensagens enviadas, figurinhas e outras estatísticas pessoais.", "ddd": "📞 *ddd* — Mostra a cidade e o estado correspondente ao DDD informado.", "perfil": "🧠 *perfil* — Uma brincadeira divertida onde o bot cria um perfil criativo sobre você.", "dono": "👑 *dono* — Mostra as informações do meu dono. Se quiser saber quem é meu criador, use *${prefix}criador*.", "checkativo": "📈 *checkativo* — Exibe informações sobre os usuários marcados, mostrando quem está mais ativo no grupo.", "gerarlink": "🔗 *gerarlink* — Gera um link direto de uma imagem ou vídeo de até 30 segundos.", "encurtalink": "✂️ *encurtalink* — Encurta links longos e deixa eles bem mais curtos e limpos ksksksk.", "shazam": "🎵 *shazam* — Identifica a música e mostra o nome, cantor e outras informações completas.", "gtts": "🗣️ *gtts* — Transforma um texto em áudio com voz gerada por inteligência artificial.", "memes": "😂 *memes* — Baixa e envia áudios de memes populares direto da web.", "metadinha": "💌 *metadinha* — Envia figurinhas de animes de casal fofinhas.", "qc": "✏️ *qc* — Cria uma figurinha com seu perfil usando o texto que você digitar.", "attp": "🎬 *attp* — Cria uma figurinha animada com o texto que você escolher.", "kwai": "📹 *kwai* — Baixa vídeos da plataforma Kwai através do link.", "toimg": "🖼️ *toimg* — Converte uma figurinha em imagem para salvar ou editar.", "id": "🆔 *id* — Puxa o ID de uma figurinha. Use *id2* para informações adicionais.", "togif": "🎥 *togif* — Converte uma figurinha (sticker) em vídeo animado.", "emojimix": "✨ *emojimix* — Mistura dois emojis e cria figurinhas novas e divertidas.", "loli": "👧 *loli* — Cria uma figurinha com personagem loli e o texto que você digitar.", "rfundo": "🖌️ *rfundo* — Remove o fundo de uma imagem e transforma em figurinha.", "meunome": "📛 *meunome* — Mostra o significado de um nome que você informar.", "g1": "📰 *g1* — Busca notícias atualizadas em um site confiável.", "grupos": "👥 *grupos* — Gera links de grupos de WhatsApp.", "clima": "☁️ *clima* — Busca informações do clima de qualquer cidade.", "ytsearch": "📺 *ytsearch* — Busca vídeos no YouTube pelo título informado.", "movie": "🎬 *movie* — Procura filmes na web pelo título.", "serie": "📽️ *serie* — Pesquisa séries na web pelo título.", "wallpaper": "🖼️ *wallpaper* — Busca imagens na web pelo título informado.", "signo": "♈ *signo* — Mostra o significado do signo informado.", "pinterest": "📌 *pinterest* — Baixa imagens do Pinterest pelo nome ou tema.", "celular": "📱 *celular* — Busca informações de um celular específico pelo nome.", "playstore": "🛍️ *playstore* — Busca aplicativos na Play Store pelo título.", "amazon": "🛒 *amazon* — Procura produtos na Amazon pelo nome.", "google": "🔎 *google* — Faz pesquisas gerais na web pelo tema que você informar.", "noticias": "📰 *noticias* — Pesquisa notícias atualizadas pelo tema informado.", "prox_jogos": "⚽ *prox_jogos* — Busca informações dos últimos jogos de um time específico.", "nasa": "🚀 *nasa* — Mostra informações, imagens e curiosidades do universo e da NASA.", "aiimage": "🤖 *aiimage* — Cria uma imagem usando inteligência artificial a partir do nome ou descrição que você informar.", "ai-photo": "🖌️ *ai-photo* — Gera imagens com inteligência artificial a partir de um tema ou nome.", "ver": "👀 *ver* — Revela uma mensagem que pode ser áudio, vídeo ou imagem.", "limpar": "🧹 *limpar* — Envia uma mensagem que substitui todo o conteúdo do chat.", "inativos": "⏱️ *inativos* — Mostra os usuários inativos no grupo. Exemplo: ${prefix}inativos 5", "atividade": "📊 *atividade* — Mostra o nível de atividade dos membros no grupo.", "zerarank": "🏆 *zerarank* — Zera o ranking de atividades ou pontos do grupo.", "configbot": "⚙️ *configbot* — Mostra um tutorial de como configurar o bot corretamente.", "x9": "👀 *x9* — Notifica quando alguma ação acontece no grupo, sempre de olho ksks.", "autofigu": "🖼️ *autofigu* — Cria figurinhas automaticamente a partir de imagens, vídeos curtos e GIFs. (Não recomendado se o grupo recebe muitas mídias).", "so_adm": "🛡️ *so_adm* — Apenas administradores podem usar os comandos do bot quando ativado.", "simih": "🤖 *simih* — O bot interage com os usuários como um assistente conversacional.", "autorepo": "🎭 *autorepo* — O bot responde automaticamente com figurinhas e áudios.", "modobrincadeira": "🎉 *modobrincadeira* — Ativa os comandos de brincadeiras e jogos para os usuários.", "antidel": "🛡️ *antidel* — Revelar mesagem apaga do usuários.", "antistatus": "📵 *antistatus* — Remover quem mencionar o grupo com status", "antidoc": "📄 *antidoc* — Remover envio de documentos no grupo.", "antiloc": "📍 *antiloc* — Remover envio de localização no grupo.", "antisticker": "🖼️ *antisticker* — Remover envio de stickers no grupo.", "anticontato": "👤 *anticontato* — Remover envio de contatos no grupo.", "antiaudio": "🎵 *antiaudio* — Remover envio de áudios no grupo.", "antivideo": "📹 *antivideo* — Remover envio de vídeos no grupo.", "antiimagem": "🖼️ *antiimagem* — Remover envio de imagens no grupo.", "antienquete": "📊 *antienquete* — Remover criação de enquetes no grupo.", "reviverqr": "🔑 *reviverqr* — Limpeza na pasta de qr-code do bot assim mantendo ele mas leve.", "lyna": "💤 *lyna* — Deixa o bot off-line, apenas acessível para os donos.", "idgp": "🆔 *idgp* — Mostra o ID do grupo.", "bangp": "💥 *bangp* — Executa uma ação especial personalizada no grupo.","dados": "🎲 Uma brincadeira com os dados. Ex.: ${prefix}dados 5", "casino": "🎰 Uma brincadeira de jogo de cassino. Tente a sorte!", "ppt": "✂️ Brincadeira de Pedra, Papel e Tesoura. Ex.: ${prefix}pedra", "vab": "❓ Brincadeira 'Você prefere?', para perguntar entre amigos.", "eununca": "🙈 Brincadeira de enquete 'Eu nunca...', para interação no grupo.", "matar": "💀 Brincadeira divertida. ${prefix}matar", "beijo": "💋 Brincadeira de beijo. Ex.: {prefix}beijo @usuário", "casal": "❤️ Brincadeira de casal do grupo. Ksksks", "chance": "🍀 Brincadeira de sorte. Ex.: {prefix}chance pergunta", "quando": "⏰ Brincadeira 'Quando?'. Ex.: {prefix}quando pergunta", "gay": "🏳️‍🌈 Brincadeira 'gay'", "feio": "🤡 Brincadeira 'feio'", "corno": "🐂 Brincadeira 'corno'", "vesgo": "👀 Brincadeira 'vesgo'", "bebado": "🍺 Brincadeira 'bêbado'", "gostoso": "🔥 Brincadeira 'gostoso'", "gostosa": "🔥 Brincadeira 'gostosa'", "sorte": "🍀 Brincadeira 'sorte'", "dogolpe": "🐶 Brincadeira 'do golpe'", "nazista": "⚠️ Brincadeira 'nazista'", "rankfeio": "🤡 Mostra o ranking de 'feios' do grupo", "rankgostoso": "🔥 Mostra o ranking de 'gostosos' do grupo", "ranknazista": "⚠️ Mostra o ranking de 'nazistas' do grupo", "rankpau": "🍆 Mostra o ranking de 'pau' do grupo", "legenda": "🖼️ *legenda* — Adiciona uma legenda em uma imagem manda a imagem e marque com o comando ${prefix}legenda texto1/texto2", "tomp3": "🖼️ *tomp3* — Estrair audio de um vídeo", "sair": "📣 *sair* — comando pro bot sair do grupo","antiadm": "📣 *Antiadm* — comando o bot não deixar que adm dê adm pra outro usuário rebaixar os 2  imediatamente","antirebaixar": "📣 *antirebaixar* — comando o bot tirar o cargo de adm do adm que tentar rebaixar outro.."
+
+}
+
+
+
+
+
