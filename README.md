@@ -1,4 +1,4 @@
-# 🤖 LYNA BOT
+# 🤖 LYNA BOT V3.1.0
 
 👑 Esse bot moderno, rápido e poderoso, desenvolvido para facilitar tarefas no WhatsApp, com foco em automação, downloads, figurinhas, jogos e administração de grupos.
 
