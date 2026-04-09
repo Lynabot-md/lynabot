@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Lynabot-md/Testa/main/IMG-20260327-WA0104.jpg" alt="Lyna Bot" width="90%" />
+  <img src="https://raw.githubusercontent.com/lyna-url/Media/main/logo.jpg" alt="Lyna Bot" width="90%" />
 </p>
 
 # 🤖 LYNA BOT V3.1.2
