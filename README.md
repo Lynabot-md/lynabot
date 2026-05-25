@@ -35,7 +35,7 @@ Para adquirir sua key para uso pessoal ou adicionar a bot em sua hospedagem, ace
 
 👉 [**Acesse o Painel da API**](https://api.lotushops.com.br)
 
-👉 [**EGG-LYNA/Pterodactyl**](https://github.com/Lynabot-md/lynabot/raw/main/egg-lyna-bot.json)
+👉 [**EGG-LYNA/Pterodactyl**](https://raw.githubusercontent.com/Lynabot-md/lynabot/main/egg-lyna-bot.json)
 
 ---
 
