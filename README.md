@@ -12,7 +12,7 @@
   <br><br> 🛡️ Proteção Avançada • 📥 Download de Mídias • 💬 Interação Automatizada • ✨ Funções Exclusivas</p>
 
 <p align="center">
-  <a href="https://wa.me/5511999999999"><img src="https://img.shields.io/badge/contato-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>&nbsp;&nbsp;<a href="https://youtube.com/@allanofc2023"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
+  <a href="https://wa.me/558009000034"><img src="https://img.shields.io/badge/contato-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>&nbsp;&nbsp;<a href="https://youtube.com/@allanofc2023"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
 </p>
 
 
@@ -35,7 +35,7 @@ Para adquirir sua key para uso pessoal ou adicionar a bot em sua hospedagem, ace
 
 👉 [**Acesse o Painel da API**](https://api.lotushops.com.br)
 
-👉 [**EGG-LYNA/Pterodactyl**](https://raw.githubusercontent.com/Lynabot-md/lynabot/main/egg-lyna-bot.json)
+👉 [**EGG-LYNA/Pterodactyl**](https://github.com/Lynabot-md/lynabot/raw/main/egg-lyna-bot.json)
 
 ---
 
