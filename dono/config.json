@@ -1,9 +1,9 @@
 {
-  "prefixo": ".",
+  "prefixo": "!",
   "nomedono": "lyna",
-  "nomebot": "LYNA BOT",
-  "apikey": "LOTUSHOPS_IMPERIUM_ACCESS",
-  "numerodono": "_",
+  "nomebot": "lyna bot",
+  "apikey": "sua key aqui",
+  "numerodono": "numero dono",
   "liddono": ".",
   "dono1": ".",
   "dolid1": ".",
@@ -11,5 +11,5 @@
   "dolid2": ".",
   "dono3": ".",
   "dolid3": ".",
-  "SITE": "site pra adquirir sua key: https://api.lotushops.com.br"
+  "SITE": "Atenção: não mexa na apikey se você estiver na Lotus, pois pode ocorrer erro. Mude o nome do bot, número do dono(a) e o prefixo. O resto não mexa. Agora, se você estiver em outro ambiente, adquira uma key aqui: https://api.lotushops.com.br depois vota aqui bota sua key"
 }

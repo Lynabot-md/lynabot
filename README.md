@@ -1,63 +1,88 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/lyna-url/Media/refs/heads/main/logo.jpg" alt="Lyna Bot" width="90%" />
+<p align="center"> <img src="https://raw.githubusercontent.com/lyna-url/Media/refs/heads/main/logo.jpg" width="700" alt="Lyna Bot Banner"/>
 </p>
 
-# 🤖 LYNA BOT V3.1.2
+<p align="center">
+  <img src="https://img.shields.io/badge/BOT-LYNA--BOT-FF6B6B?style=for-the-badge">
+  <img src="https://img.shields.io/badge/VERSÃO-3.1.3-4D96FF?style=for-the-badge">
+</p>
 
-Um bot completo para WhatsApp, ideal para grupos, amizades, músicas e muito mais.  
-Conta com proteção avançada, download de músicas, criação de figurinhas e várias funções úteis, tudo de forma leve, estável e fácil de usar.
+---
+<p align="center">
+  <strong>O bot completo para gerenciamento e diversão em grupos de WhatsApp!</strong>
+  <br><br> 🛡️ Proteção Avançada • 📥 Download de Mídias • 💬 Interação Automatizada • ✨ Funções Exclusivas</p>
 
-
-## ☁️ Hospedagem
-
-Cansado de bot travando ou tendo dor de cabeça pra atualizar?
-
-Use nossa [hospedagem](https://lotushops.com.br/store)
-
-**Vantagens:**
-- Servidor pronto pra uso  
-- Inicialização automática do bot  
-- Atualizações simples e rápidas  
-- Key já configurada  
-- Mantém suas configurações (dono e grupos)  
-- Basta apagar a pasta antiga que o bot baixa a nova versão automaticamente  
+<p align="center">
+  <a href="https://wa.me/5511999999999"><img src="https://img.shields.io/badge/contato-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>&nbsp;&nbsp;<a href="https://youtube.com/@allanofc2023"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
+</p>
 
 
-## ⚙️ Instalação em outros ambientes
+---
 
-Prefere rodar por conta própria?
+### 🚀 Hospedagem Recomendada
 
-Acesse nosso [site](https://api.lotushops.com.br) Vá até **Termux** e siga o tutorial para instalar em:
-- Termux  
-- VPS  
-- Outros ambientes  
+Evite travamentos, quedas e lentidão.  
+Leve seus projetos para a Lotus e tenha servidores de alta performance, estabilidade e ótimo desempenho: 
 
+👉 [**Lotus Hospedagem**](https://lotushops.com.br)
 
-## 🔔 Atualizações
+---
 
-Fique por dentro de tudo:
+### 🔑 Chave de API (Obrigatório)
 
-📢 Nosso [canal](https://whatsapp.com/channel/0029VaoBpc523n3g4xycWi3W)  
-💬 Nosso [chat](https://chat.whatsapp.com/G8c680eOmPP0H9BK08OW04)  
+Para que todas as funções de download e pesquisas funcionem corretamente, é necessário utilizar uma chave de API ativa.
 
-Lá você encontra:
-- Atualizações  
-- Novidades  
-- Correções  
-- Avisos importantes  
+Para adquirir sua key para uso pessoal ou adicionar a bot em sua hospedagem, acesse o link abaixo:
 
+👉 [**Acesse o Painel da API**](https://api.lotushops.com.br)
 
-## 🚀 O que a LotusHops oferece?
+👉 [**EGG-LYNA/Pterodactyl**](https://github.com/Lynabot-md/lynabot/raw/main/egg-lyna-bot.json)
 
-- Servidores confiáveis  
-- Ótimo custo-benefício  
-- Domínio incluso  
-- Suporte a:
-  - Node.js  
-  - Python  
+---
+
+### 📢 Canal Oficial
+Fique por dentro de todas as novidades, correções de bugs e atualizações importantes:
+
+👉 [**Canal no WhatsApp**](https://whatsapp.com/channel/0029VaoBpc523n3g4xycWi3W)
+
+---
 
 
-## 🤖 Bots disponíveis
+## 📲 Instalação no Termux
 
-- [Lyna Bot](https://api.lotushops.com.br)  
-- [Takeshi Bot](https://github.com/guiireal/takeshi-bot)
+**1️⃣ Comando**
+```bash
+termux-setup-storage
+```
+
+**2️⃣ Comando**
+```bash
+pkg upgrade -y && pkg update -y && pkg install nodejs -y && pkg install nodejs-lts -y && pkg install wget -y && pkg install git -y && pkg install ffmpeg -y
+```
+
+**3️⃣ Comando**
+```bash
+cd /sdcard && git clone https://github.com/Lynabot-md/lynabot
+```
+
+**4️⃣ Comando**
+```bash
+cd lynabot
+```
+
+**5️⃣ Comando**
+```bash
+npm install --no-bin-links
+```
+
+**6️⃣ Comando**
+```bash
+node start.js
+```
+
+---
+
+> ⚠️ Após conectar o bot, utilize o comando `!confibot` para adicionar o dono(a), configurar funções e finalizar a configuração inicial do bot.
+
+>❓ Caso tenha dúvidas ou precise de suporte, entre em contato com um dos administradores do grupo.
+
+👉 [**Chat Aberto / Suporte**](https://chat.whatsapp.com/Jac2yxLLIviLZVqjpqiE4D)
