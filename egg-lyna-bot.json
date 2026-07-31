@@ -1,0 +1,37 @@
+{
+  "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+  "meta": {
+    "version": "PTDL_v2",
+    "update_url": null
+  },
+  "exported_at": "2026-05-24T23:59:00-03:00",
+  "name": "Lyna Bot",
+  "author": "lynabotmd@gmail.com",
+  "description": "Egg oficial da Lyna Bot para Pterodactyl.",
+  "features": [],
+  "docker_images": {
+    "Node.js 24": "ghcr.io/parkervcp/yolks:nodejs_24",
+    "Node.js 23": "ghcr.io/parkervcp/yolks:nodejs_23",
+    "Node.js 22": "ghcr.io/parkervcp/yolks:nodejs_22",
+    "Node.js 21": "ghcr.io/parkervcp/yolks:nodejs_21",
+    "Node.js 20": "ghcr.io/parkervcp/yolks:nodejs_20"
+  },
+  "file_denylist": [
+    "egg-lyna-bot.json"
+  ],
+  "startup": "clear && echo '' && echo '╭──────────────────╮' && echo '    ✨ LYNA BOT ✨' && echo '╰──────────────────╯' && echo '' && echo '[🔎] Verificando arquivos...' && git clone -q https://github.com/Lynabot-md/lynabot.git temp_repo 2>/dev/null && cp -rn temp_repo/* . && cp -rn temp_repo/.[!.]* . 2>/dev/null && rm -rf temp_repo && rm -rf .git && echo '[✅] Verificação concluída' && if [ ! -d \"node_modules\" ]; then echo '[📦] Instalando dependências...' && npm install --silent --no-audit --no-fund && echo '[✅] Dependências instaladas'; fi && echo '' && echo '[🚀] Iniciando Lyna Bot...' && echo '' && node start.js",
+  "config": {
+    "files": "{}",
+    "startup": "{\r\n    \"done\": [\r\n      \"Bot iniciado com sucesso\",\r\n      \"WhatsApp conectado\",\r\n      \"Listening on port\",\r\n      \"[🚀] Iniciando Lyna Bot...\"\r\n    ]\r\n}",
+    "logs": "{}",
+    "stop": "^C"
+  },
+  "scripts": {
+    "installation": {
+      "script": "#!/bin/bash\r\n\r\nclear\r\necho ''\r\necho '╭────────────────────╮'\r\necho '   ✨ INSTALADOR ✨'\r\necho '╰────────────────────╯'\r\necho ''\r\n\r\necho '[⚙️] Preparando ambiente...'\r\napt update > /dev/null 2>&1\r\napt install -y git curl jq file unzip make gcc g++ python3 python3-dev libtool > /dev/null 2>&1\r\necho '[✅] Ambiente preparado'\r\n\r\necho '[📥] Baixando Lyna Bot...'\r\ngit clone -q https://github.com/Lynabot-md/lynabot.git temp_repo\r\ncp -rn temp_repo/* .\r\ncp -rn temp_repo/.[!.]* . 2>/dev/null\r\nrm -rf temp_repo\r\nrm -rf .git\r\necho '[✅] Repositório instalado'\r\n\r\necho '[📦] Instalando dependências...'\r\nif [ -f \"package.json\" ]; then\r\n    npm install --silent --no-audit --no-fund\r\n    echo '[✅] Dependências instaladas'\r\nelse\r\n    echo '[❌] package.json não encontrado'\r\n    exit 1\r\nfi\r\n\r\nclear\r\necho ''\r\necho '╭──────────────────╮'\r\necho '    🎉 CONCLUÍDO 🎉'\r\necho '╰──────────────────╯'\r\necho ''\r\necho '[🚀] Lyna Bot instalado!'\r\necho '[▶️] node start.js'\r\necho '[🔒] Egg protegido'\r\necho ''",
+      "container": "node:24",
+      "entrypoint": "bash"
+    }
+  },
+  "variables": []
+}
