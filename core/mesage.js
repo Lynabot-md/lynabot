@@ -1,3 +1,13 @@
+
+
+export const audioeff = '❌ Você precisa responder a uma mensagem de áudio para usar este comando!';
+
+
+
+
+
+
+
 // mensagem de alerta
 export const alerTa = (sender, motivo1, motivo2) => `🚫 *USUÁRIO REMOVIDO* @${sender.split('@')[0]}\n\n*Motivos mandou:*\n• antes: ${motivo1}\n• agora: ${motivo2}\n\nbys: 😽`;
 

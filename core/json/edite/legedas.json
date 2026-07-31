@@ -1,0 +1,32 @@
+{
+  "antilinkgp": "🚫 Ei, #numerodele#! Links de grupos e canais não são permitidos aqui. Tchauzinho! 👋",
+  "antispam": "⚠️ #numerodele#, tá tentando brincar com o antispam? Resultado: ban na certa. 😎",
+  "antilink": "🔗 #numerodele#, links não são permitidos neste grupo.",
+  "Antistatus": "📵 #numerodele#, marcar o grupo nos status deu ruim. Você foi de arrasta. 😂",
+  "Antiloc": "📍 #numerodele#, envio de localização não é permitido aqui.",
+  "Antisticker": "🖼️ #numerodele#, figurinhas estão bloqueadas neste grupo.",
+  "Antilottie": "🎭 #numerodele#, stickers animados (Lottie) não são permitidos.",
+  "Anticontato": "👤 #numerodele#, envio de contatos não é permitido.",
+  "Antiaudio": "🎤 #numerodele#, áudios estão bloqueados neste grupo.",
+  "Antivideo": "🎥 #numerodele#, vídeos não são permitidos aqui.",
+  "antiproduct": "🛒 @#numerodele# foi removido por compartilhar PRODUTO/LOJA/CATÁLOGO!\n\n⚠️ Isso é proibido pelas regras do grupo.",
+  "Antiimagem": "🖼️ #numerodele#, imagens estão bloqueadas neste grupo.",
+  "Antienquete": "📊 #numerodele#, enquetes não são permitidas aqui.",
+  "AntiDoc": "📄 #numerodele#, documentos não são permitidos neste grupo.",
+  "palavroes": "🤬 #numerodele# foi removido por enviar palavras proibidas.",
+  "limitecaracteres": "✂️ #numerodele#, sua mensagem ultrapassou o limite de caracteres permitido.",
+
+ 
+  "grupo": {
+  "abrir": "🛠️ CONFIGURAR PARA ABRIR/FECHAR O GRUPO AUTOMATICAMENTE\n\n» ${prefix}${command} 8:00/d → manhã (dia / AM)\n» ${prefix}${command} 14:00/t → tarde\n» ${prefix}${command} 20:00/n → noite\n» ${prefix}${command} 01:00/m → madrugada\n\n⚠️ Sufixos obrigatórios:\n/d = dia (AM)\n/t = tarde\n/n = noite\n/m = madrugada",
+  
+  "fort": "❌ Formato inválido!\n\n📝 Use assim:\n${prefix}${command} 7:00/d\n\n📌 Legendas:\nd = dia/manhã\nt = tarde\nn = noite\nm = madrugada"
+  
+  
+  }
+}
+
+
+
+
+

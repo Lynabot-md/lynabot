@@ -149,6 +149,12 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 
 ﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
+*📋 EXTRAS/AUSENTE*
+
+⬖ ${prefix}ativo • modo on
+⬖ ${prefix}modoff • modo off
+﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+
 *📌 MARCAR*
 
 ⬖ ${prefix}cita • citar
@@ -226,7 +232,7 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 *👑 COMANDOS DONO*
 
 ⬖ ${prefix}confibot • configurar
-⬖ ${prefix}cmdfigu • figurinhas
+⬖ ${prefix}figcmd • figurinhas
 ⬖ ${prefix}chekey • verificar key
 ⬖ ${prefix}seradm • virar admin
 ⬖ ${prefix}sermembro • virar membro
@@ -259,10 +265,8 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 
 ﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
-*📋 EXTRAS/AUSENTE*
+*📋 EXTRAS*
 
-⬖ ${prefix}ativo • modo on
-⬖ ${prefix}modoff • modo off
 ⬖ ${prefix}visualizarmsg • ver msg
 
 ﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏

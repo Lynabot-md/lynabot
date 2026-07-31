@@ -1,6 +1,6 @@
 {
   "name": "lyna-bot",
-  "version": "3.1.4",
+  "version": "3.1.2",
   "description": "🤖 Lyna Bot — um poderoso bot de WhatsApp criado para dominar os grupos",
   "author": "Velton",
   "type": "module",
