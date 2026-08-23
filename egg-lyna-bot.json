@@ -10,10 +10,9 @@
   "description": "Egg oficial da Lyna Bot para Pterodactyl.",
   "features": [],
   "docker_images": {
+    "Node.js 26": "ghcr.io/parkervcp/yolks:nodejs_26",
+    "Node.js 25": "ghcr.io/parkervcp/yolks:nodejs_25",
     "Node.js 24": "ghcr.io/parkervcp/yolks:nodejs_24",
-    "Node.js 23": "ghcr.io/parkervcp/yolks:nodejs_23",
-    "Node.js 22": "ghcr.io/parkervcp/yolks:nodejs_22",
-    "Node.js 21": "ghcr.io/parkervcp/yolks:nodejs_21",
     "Node.js 20": "ghcr.io/parkervcp/yolks:nodejs_20"
   },
   "file_denylist": [
@@ -29,7 +28,7 @@
   "scripts": {
     "installation": {
       "script": "#!/bin/bash\r\n\r\nclear\r\necho ''\r\necho '╭────────────────────╮'\r\necho '   ✨ INSTALADOR ✨'\r\necho '╰────────────────────╯'\r\necho ''\r\n\r\necho '[⚙️] Preparando ambiente...'\r\napt update > /dev/null 2>&1\r\napt install -y git curl jq file unzip make gcc g++ python3 python3-dev libtool > /dev/null 2>&1\r\necho '[✅] Ambiente preparado'\r\n\r\necho '[📥] Baixando Lyna Bot...'\r\ngit clone -q https://github.com/Lynabot-md/lynabot.git temp_repo\r\ncp -rn temp_repo/* .\r\ncp -rn temp_repo/.[!.]* . 2>/dev/null\r\nrm -rf temp_repo\r\nrm -rf .git\r\necho '[✅] Repositório instalado'\r\n\r\necho '[📦] Instalando dependências...'\r\nif [ -f \"package.json\" ]; then\r\n    npm install --silent --no-audit --no-fund\r\n    echo '[✅] Dependências instaladas'\r\nelse\r\n    echo '[❌] package.json não encontrado'\r\n    exit 1\r\nfi\r\n\r\nclear\r\necho ''\r\necho '╭──────────────────╮'\r\necho '    🎉 CONCLUÍDO 🎉'\r\necho '╰──────────────────╯'\r\necho ''\r\necho '[🚀] Lyna Bot instalado!'\r\necho '[▶️] node start.js'\r\necho '[🔒] Egg protegido'\r\necho ''",
-      "container": "node:24",
+      "container": "ghcr.io/parkervcp/yolks:nodejs_26",
       "entrypoint": "bash"
     }
   },

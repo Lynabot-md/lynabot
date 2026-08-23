@@ -80,7 +80,7 @@ return  `​​​​​​​​​​​​​​​​​​​​​​​�
 ⬖ ${prefix}bits • sistema
 ⬖ ${prefix}checkativo • verificar
 ⬖ ${prefix}Nick • nome
-
+⬖ ${prefix}Gitbot • bot
 ﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 *🔍 PESQUISA*
@@ -100,8 +100,11 @@ return  `​​​​​​​​​​​​​​​​​​​​​​​�
 ⬖ ${prefix}frases • frases
 ⬖ ${prefix}sinonimo • sinônimo
 ⬖ ${prefix}icms • icms
+⬖ ${prefix}aliquotas • const
 ⬖ ${prefix}meunome • nome
 ⬖ ${prefix}futebol • Time
+⬖ ${prefix}wallpaper • título
+⬖ ${prefix}ssweb • site
 
 ﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
@@ -199,7 +202,7 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ⬖ ${prefix}listacmd • lista comandos
 ⬖ ${prefix}mute • silenciar
 ⬖ ${prefix}desmute • dessilenciar
-
+⬖ ${prefix}antiflood • 5
 ﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 *📊 LIMITE/CARACTERES*
