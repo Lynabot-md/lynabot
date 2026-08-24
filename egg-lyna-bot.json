@@ -21,7 +21,7 @@
   "startup": "clear && echo '' && echo '╭──────────────────╮' && echo '    ✨ LYNA BOT ✨' && echo '╰──────────────────╯' && echo '' && echo '[🔎] Verificando arquivos...' && git clone -q https://github.com/Lynabot-md/lynabot.git temp_repo 2>/dev/null && cp -rn temp_repo/* . && cp -rn temp_repo/.[!.]* . 2>/dev/null && rm -rf temp_repo && rm -rf .git && echo '[✅] Verificação concluída' && if [ ! -d \"node_modules\" ]; then echo '[📦] Instalando dependências...' && npm install --silent --no-audit --no-fund && echo '[✅] Dependências instaladas'; fi && echo '' && echo '[🚀] Iniciando Lyna Bot...' && echo '' && node start.js",
   "config": {
     "files": "{}",
-    "startup": "{\r\n    \"done\": [\r\n      \"Bot iniciado com sucesso\",\r\n      \"WhatsApp conectado\",\r\n      \"Listening on port\",\r\n      \"[🚀] Iniciando Lyna Bot...\"\r\n    ]\r\n}",
+    "startup": "{\r\n    \"done\": [\r\n      \"CONECTADO COM SUCESSO!\",\r\n      \"CONECTADO\",\r\n      \"Connected\",\r\n      \"online\"\r\n    ]\r\n}",
     "logs": "{}",
     "stop": "^C"
   },
@@ -32,5 +32,16 @@
       "entrypoint": "bash"
     }
   },
-  "variables": []
+  "variables": [
+    {
+      "name": "Versão do Node.js",
+      "description": "Selecione a versão do Node.js para rodar o bot.",
+      "env_variable": "NODE_IMAGE",
+      "default_value": "ghcr.io/parkervcp/yolks:nodejs_26",
+      "user_viewable": true,
+      "user_editable": true,
+      "rules": "required|string",
+      "field_type": "text"
+    }
+  ]
 }
