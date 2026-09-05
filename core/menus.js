@@ -81,6 +81,8 @@ return  `​​​​​​​​​​​​​​​​​​​​​​​�
 ⬖ ${prefix}checkativo • verificar
 ⬖ ${prefix}Nick • nome
 ⬖ ${prefix}Gitbot • bot
+⬖ ${prefix}gerarlink • media
+⬖ ${prefix}gerarlink2 • media
 ﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 *🔍 PESQUISA*
@@ -105,6 +107,7 @@ return  `​​​​​​​​​​​​​​​​​​​​​​​�
 ⬖ ${prefix}futebol • Time
 ⬖ ${prefix}wallpaper • título
 ⬖ ${prefix}ssweb • site
+⬖ ${prefix}grupos • nome
 
 ﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
@@ -236,6 +239,7 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 
 ⬖ ${prefix}confibot • configurar
 ⬖ ${prefix}figcmd • figurinhas
+⬖ ${prefix}setid • figurinhas
 ⬖ ${prefix}chekey • verificar key
 ⬖ ${prefix}seradm • virar admin
 ⬖ ${prefix}sermembro • virar membro
@@ -246,7 +250,14 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ⬖ ${prefix}limparbot • limpar bot
 ⬖ ${prefix}reiniciar • reiniciar bot
 ⬖ ${prefix}transmitir • mesagem 
+⬖ ${prefix}poststatus • mesagem
+﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
+*⚠️ ATUALIZA BOT*
+
+⬖ ${prefix}Checkupdate
+⬖ ${prefix}Atualizar
+⬖ ${prefix}Atualizar_modulo
 ﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 *📌 OUTROS*
@@ -266,6 +277,12 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ⬖ ${prefix}divstop • numero
 ⬖ ${prefix}ativardiv • numero
 
+﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+
+*🔗 config/Chanel*
+
+⬖ ${prefix}ativarcanal • ativa
+⬖ ${prefix}altecanal • link
 ﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 *📋 EXTRAS*
@@ -325,6 +342,8 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ⬖ ${prefix}cassino • apostar
 ⬖ ${prefix}ppt • pedra/papel/tesoura
 ⬖ ${prefix}dados • 1 a 6
+⬖ ${prefix}duelo • usuários
+⬖ ${prefix}resetduelo • reiniciar
 
 ﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
@@ -342,7 +361,9 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ⬖ ${prefix}quando • previsão
 ⬖ ${prefix}vab • você prefere
 ⬖ ${prefix}eununca • eu nunca
-
+⬖ ${prefix}caraoucoroa • cara
+⬖ ${prefix}adivinhar • pergunta?
+⬖ ${prefix}parouimpar • por 5
 ﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 *📸 POSENTAGEM*

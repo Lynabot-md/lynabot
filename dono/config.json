@@ -3,7 +3,7 @@
   "nomedono": "lyna",
   "nomebot": "lyna bot",
   "apikey": "_",
-  "numerodono": "_",
+  "numerodono": "55999",
   "liddono": "_",
   "dono1": "_",
   "dolid1": "_",
@@ -11,5 +11,5 @@
   "dolid2": "_",
   "dono3": "_",
   "dolid3": "_",
-  "SITE": "Atenção: não mexa na apikey se você estiver na Lotus, pois pode ocorrer erro. Mude o nome do bot, número do dono(a) e o prefixo. O resto não mexa. Agora, se você estiver em outro ambiente, adquira uma key aqui: https://api.lotushops.com.br depois vota aqui bota sua key"
+  "SITE": "Atenção: não mexa na apikey se você estiver na Lotus, pois pode ocorrer erro Mude o nome do bot, número do dono(a) e o prefixo. O resto não mexa. Agora, se você estiver em outro ambiente, adquira uma key aqui: https://api.lotushops.com.br depois vota aqui bota sua key"
 }

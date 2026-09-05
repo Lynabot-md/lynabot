@@ -1,0 +1,274 @@
+{
+
+"rankgay":{
+"texto":"* Cria um ranking aleatório dos 5 membros do grupo relacionados ao tema gay, exibindo os participantes em uma classificação divertida\n\n* Ex: *${prefix}rankgay*"
+},
+"rankcorno":{
+"texto":"* Cria um ranking aleatório dos 5 membros do grupo relacionados ao tema corno, exibindo os participantes em uma classificação divertida\n\n* Ex: *${prefix}rankcorno*"
+},
+"rankgostoso":"* Cria um ranking aleatório dos 5 membros do grupo relacionados ao tema gostoso, exibindo os participantes em uma classificação divertida\n\n* Ex: *${prefix}rankgostoso*",
+
+"rankgostosa":{
+"texto":"* Cria um ranking aleatório das 5 membros do grupo relacionadas ao tema gostosa, exibindo as participantes em uma classificação divertida\n\n* Ex: *${prefix}rankgostosa*"
+},
+"ranknazista":"* Cria um ranking aleatório dos 5 membros do grupo relacionados ao tema nazista, exibindo os participantes em uma classificação de brincadeira\n\n* Ex: *${prefix}ranknazista*",
+"rankpau":"* Cria um ranking aleatório dos 5 membros do grupo relacionados ao tema tamanho do pênis, exibindo os participantes em uma classificação de brincadeira\n\n* Ex: *${prefix}rankpau*",
+"rankbct":{
+"texto":"* Cria um ranking aleatório das 5 membros do grupo relacionado ao tema de aparência íntima feminina, exibindo as participantes em uma classificação de brincadeira\n\n* Ex: *${prefix}rankbct*"
+},
+"perfil":"* Mostra o perfil do usuário no grupo com nome, ID, cargo, quantidade de Bits, título, nível de atividade, mensagens, comandos, figurinhas, data de entrada e última atividade Também apresenta uma análise aleatória com níveis de corno, viadagem e gostosura, além de uma frase de zoeira\n\n* Ex: *${prefix}perfil*",
+"gostosa":"* Faz uma brincadeira aleatória sobre a aparência do usuário, gerando uma porcentagem de chance de ser gostosa e uma resposta divertida\n\n* Ex: *${prefix}gostosa*",
+"sorte":"* Calcula uma porcentagem aleatória de sorte para o usuário e apresenta um resultado divertido sobre a sorte dele no dia\n\n* Ex: *${prefix}sorte*",
+"dogolpe":"* Faz uma brincadeira aleatória para calcular a porcentagem de chance de o usuário levar um golpe, apresentando um resultado divertido\n\n* Ex: *${prefix}dogolpe*",
+"nazista":"* Faz uma brincadeira aleatória sobre o perfil do usuário, gerando uma porcentagem de chance de ser “nazista do grupo” e uma resposta divertida\n\n* Ex: *${prefix}nazista*",
+"feio":"* Faz uma brincadeira aleatória sobre a aparência do usuário, gerando uma porcentagem de chance de ser feio e uma resposta divertida\n\n* Ex: *${prefix}feio*",
+"corno":"* Faz uma brincadeira aleatória sobre a vida amorosa do usuário, gerando uma porcentagem de chance de ser corno e uma resposta divertida\n\n* Ex: *${prefix}corno*",
+"vesgo":"* Faz uma brincadeira aleatória sobre o alinhamento dos olhos do usuário, gerando uma porcentagem de chance de ser vesgo e uma resposta divertida\n\n* Ex: *${prefix}vesgo*",
+"bebado":"* Faz uma brincadeira aleatória sobre o nível de embriaguez do usuário, gerando uma porcentagem de chance de estar bêbado e uma resposta divertida\n\n* Ex: *${prefix}bebado*",
+"gostoso":"* Faz uma brincadeira aleatória sobre a aparência do usuário, gerando uma porcentagem de chance de ser gostoso e uma resposta divertida\n\n* Ex: *${prefix}gostoso*",
+"chance":"* Calcula uma porcentagem aleatória para uma pergunta feita no grupo e apresenta um resultado divertido baseado na chance sorteada\n\n* Ex: *${prefix}chance* vou ficar rico",
+"quando":"* Responde de forma aleatória quando algo poderá acontecer, usando frases divertidas como “em breve”, “mais tarde”, “agora mesmo” ou “algum dia”\n\n* Ex: *${prefix}quando* vou casar",
+"gay":"* Faz uma brincadeira aleatória sobre a orientação sexual do próprio usuário, gerando uma porcentagem e uma resposta divertida O resultado é apenas uma brincadeira e não representa uma informação real\n\n* Ex: *${prefix}gay*",
+"casal":"* Sorteia aleatoriamente dois membros do grupo para formar um casal O bot envia uma mensagem de suspense e, depois de alguns segundos, revela o casal sorteado com uma frase divertida\n\n* Ex: *${prefix}casal*",
+"beijo":"* Dá um beijo de brincadeira em um membro do grupo Marque alguém ou responda à mensagem da pessoa para realizar o comando O bot envia uma mensagem de suspense e, depois de alguns segundos, envia o resultado da brincadeira\n\n* Ex: *${prefix}beijo* @usuário",
+"matar":"* Faz uma brincadeira de “matar” um membro do grupo Marque alguém ou responda à mensagem da pessoa para realizar o comando O bot envia uma mensagem de ataque e, depois de alguns segundos, envia o resultado da brincadeira\n\n* Ex: *${prefix}matar* @usuário",
+"eununca":"* Envia uma enquete de Eu Nunca com uma frase aleatória para o grupo Os participantes podem escolher entre “Eu nunca” e “Eu já”\n\n* Ex: *${prefix}eununca*",
+"vab":"* Envia uma enquete de Você Prefere com uma pergunta aleatória e duas opções para o grupo escolher As perguntas podem envolver situações divertidas, escolhas difíceis ou preferências pessoais\n\n* Ex: *${prefix}vab*",
+"forca":"* Inicia um jogo da forca com uma palavra secreta Tente descobrir a palavra escolhendo uma letra por vez Você pode cometer até 6 erros; caso descubra a palavra, você vence Se atingir 6 erros, o jogo termina e a palavra é revelada\n\n* Ex: *${prefix}forca* a",
+"quiz":"* Inicia um quiz com uma pergunta aleatória Responda usando o comando com a sua resposta Se acertar, você vence; se errar, pode tentar novamente até acertar\n\n* Ex: *${prefix}quiz* mercurio",
+"adivinhar":"* Inicia um jogo para adivinhar o número secreto de 1 a 50 O bot informa se o número secreto é maior ou menor que o seu palpite e conta suas tentativas O jogo termina quando você acertar o número\n\n* Ex: *${prefix}adivinhar 25*",
+"parouimpar":"* Joga Par ou Ímpar contra o bot Escolha entre par ou ímpar e informe um número O bot também escolherá um número e a soma dos dois números definirá se o resultado é par ou ímpar Se o resultado for igual à sua escolha, você vence\n\n* Ex: *${prefix}parouimpar* par 5",
+"caraoucoroa":"* Joga Cara ou Coroa contra o bot Escolha entre cara ou coroa e a moeda será lançada Se o resultado for igual à sua escolha, você vence Caso contrário, você perde\n\n* Ex: *${prefix}caraoucoroa* cara",
+"ppt":"* Joga Pedra, Papel ou Tesoura contra o bot Escolha entre pedra, papel ou tesoura e veja se consegue vencer o bot\n\n* Ex: *${prefix}ppt* pedra", "cassino":"* Gira a máquina de cassino e sorteia três símbolos Se os três símbolos forem iguais, você ganha o Jackpot Se dois símbolos forem iguais, dá empate Caso nenhum seja igual, você perde\n\n* Ex: *${prefix}cassino*",
+
+
+"numerodono":"* Altera o número do dono do bot O comando pode ser usado pelo próprio bot em qualquer chat ou por um dono que já esteja na lista de donos Para saber mais, use ${prefix}confibot\n\n* Ex: ${prefix}numerodono *+5599XXXXXXXX*", "nomedono":"* Altera o nome do dono do bot O comando pode ser usado pelo próprio bot ou por um dono que já esteja na lista de donos Para saber mais, use *${prefix}confibot*\n\n* Ex: *${prefix}nomedono seu nick*", "nomebot":"* Altera o nome do bot O comando pode ser usado pelo próprio bot ou por um dono que já esteja na lista de donos Para saber mais, use *${prefix}confibot*\n\n* Ex: *${prefix}nomebot nome do bot*", "dados":"* Joga dados contra o bot Informe um número de 1 a 6 e o bot enviará o dado Se o número sorteado for o mesmo que você escolheu, você vence\n\n* Ex: *${prefix}dados* 5", "lyna":"* Desativa o bot completamente, fazendo com que ele pare de responder aos usuários Enquanto estiver desativado, o bot responderá apenas ao dono\n\n* Ex: *${prefix}desativar*", "transmitir":"* Envia uma mensagem ou mídia para todos os grupos ou apenas para grupos específicos Para enviar para grupos específicos, informe os números conforme a lista do comando ${prefix}listagp Também é possível responder a uma imagem, figurinha, áudio ou vídeo para transmiti-lo Áudios e vídeos devem ter no máximo 30 segundos\n\n* Enviar para todos: ${prefix}transmitir sua mensagem\n\n* Enviar para grupos específicos: ${prefix}transmitir 1,3,5 sua mensagem\n\n* Enviar mídia: responda à imagem, figurinha, áudio ou vídeo com ${prefix}transmitir\n\n* Com mídia, você pode informar os números dos grupos, como ${prefix}transmitir 1,3,5", "listagp":"* Envia a lista de grupos em que o bot está atualmente\n\n* Ex: ${prefix}listagp", "sair":"* Faz o bot sair do grupo\n\n* Ex: ${prefix}sair","prefixobot":"* Altera o prefixo do bot Informe o novo prefixo que deseja utilizar\n\n* Ex: ${prefix}prefixobot ×", "antipv":"* Ativa ou desativa o AntiPV Quando ativado, o bot bloqueia automaticamente os usuários que enviarem mensagens no privado do bot\n\n* Ex: ${prefix}antipv", "visualizarmsg":"* Ativa ou desativa a confirmação de visualização das mensagens Quando ativado, o bot não marca as mensagens como visualizadas\n\n* Ex: ${prefix}visualizarmsg", "reiniciar":"* Reinicia o bot Após usar o comando, o bot será encerrado e iniciado novamente automaticamente pode demorar um pouquinho o processo\n\n* Ex: *${prefix}reiniciar*","adms":"* Menciona os administradores do grupo Caso um usuário envie algo no grupo e não haja nenhum administrador online, use este comando para marcá-los Você também pode mencionar a mensagem do usuário\n\n* Ex: ${prefix}adms", "atividade":"* *Mostra a atividade completa dos membros do grupo, organizando os usuários do mais ativo para o menos ativo\n\n* Exibe a quantidade de mensagens, comandos, figurinhas e Bits de cada membro, além do total de atividades, quando entrou no ranking e a data da última atividade registrada\n\n* Ex: *${prefix}atividade*", "inativos":"* *${prefix}inativos* mostra os membros que possuem exatamente a quantidade de atividades informada no grupo A atividade é calculada com base em mensagens, comandos e figurinhas enviadas\n\n* Use um número para definir a quantidade exata de atividades que deseja procurar\n\n* Ex: *${prefix}inativos 2*", "rankinativos":"* Mostra o ranking dos membros mais inativos do grupo, colocando primeiro quem possui a menor quantidade de atividades registradas\n\n* Mostra até os 10 membros menos ativos e informa a quantidade de mensagens, comandos e figurinhas enviadas, além da data em que entrou no grupo e quando teve a última atividade registrada\n\n* Ex: *${prefix}rankinativos*", "rankativos":"* Mostra o ranking dos membros mais ativos do grupo, levando em consideração mensagens, comandos e figurinhas enviadas\n\n* O ranking mostra até os 10 membros mais ativos e exibe a quantidade de mensagens, comandos, figurinhas e a última atividade de cada usuário\n\n* Ex: *${prefix}rankativos*", "limpar":"* Faz uma limpeza visual no chat, enviando uma mensagem que empurra as mensagens anteriores para cima e deixa o chat limpo para continuar a conversa\n\n* Ex: *${prefix}limpar*","cita":"* Repete uma mensagem mencionando os membros do grupo Pode citar texto, imagem, vídeo, GIF, áudio, figurinha ou documento\n\n* Ex: *${prefix}cita mencione ou digite algo*", "marcar":"* Marca os membros do grupo em uma única mensagem, ignorando adms permite adicionar um motivo da marcação\n\n* Ex: *${prefix}marcar bom dia*", "linkgp":"* Envia o link de convite do grupo\n\n* Ex: *${prefix}linkgp*", "poststatus":"* Publica uma mensagem no status do grupo Pode enviar uma mensagem diretamente ou responder a uma mensagem para publicá-la no status\n\n* No grupo: ${prefix}poststatus bom dia ou responda a uma mensagem\n\n* No PV: ${prefix}poststatus ID do grupo/bom dia ou responda a uma mensagem\n\n* Pra sabe o id seu grupo manda no próprio grupo ${prefix}idgp", "regra":"* Mostra as informações e as regras do grupo\n\n* Ex: *${prefix}regra*", "sorteio":"* Realiza um sorteio entre os membros do grupo e escolhe automaticamente um ou mais vencedores É necessário informar o prêmio que será sorteado\n\n* Somente para um membro *${prefix}sorteio* Cafézinho\n\n* Mais de um membro *${prefix}sorteio* 2/Cafézinho\n\n* A quantidade de vencedores é definida por você","grupo":"* Permite abrir ou fechar o grupo Use *a/f* para abrir ou fechar o grupo atual e *at/ft* para abrir ou fechar todos os grupos que o bot for adm As opções para todos são exclusivas para dono do bot\n\n* Ex: *${prefix}grupo a*", "ver": "* Revela mensagens de visualização única, válido pra imagens, vídeos ou áudios enviados como visualização única\n\n* Ex: *${prefix}ver* mensagem de visualização única", "alerta": "* Ativa ou desativa o sistema de alerta se um usuário enviar algo proibido, ele receberá um aviso caso envie novamente, será removido do grupo\n\n* Ex: *${prefix}alerta*", "bangp": "* Ativa ou desativa o modo de pausa do grupo quando ativado, o bot para de responder no grupo e todas as funções ficam pausadas mesmo assim, o bot continua respondendo ao dono\n\n* Ex: *${prefix}bangp*", "antiproduct": "* Ativa ou desativa a proteção contra catálogo, anúncios e produtos enviado no grupo\n\n* Ex: *${prefix}antiproduct*", "modobits": "* Ativa ou desativa o ModoBits no grupo Quando ativado, cada comando usado por um membro que não seja administrador custa 3 Bits É necessário ter saldo de Bits para usar os comandos Os Bits podem ser acumulados participando do grupo\n\n* Ex: ${prefix}modobits", "legendas": "* Ativa ou desativa as mensagens de aviso Quando ativado, o bot envia uma mensagem explicando porque removeu o usuário quando desativado, o bot realiza as ações normalmente, mas não envia mensagens informando o motivo da ação()\n\n* Ex: ${prefix}legendas", "autorepo": "* Ativa ou desativa as respostas automáticas no grupo quando ativado, o bot pode responder mensagens de interação como bom dia, boa tarde e boa noite, além de algumas mensagens em texto, áudio e figurinha Para evitar flood e ban cada usuário tem limite de respostas para determinadas mensagens e existe um pequeno intervalo entre as respostas\n\n* Ex: *${prefix}autorepo*", "modozueira": "* Ativa ou desativa o modo zoeira no grupo quando ativado, os usuários podem usar os comandos de brincadeiras disponíveis no *${prefix}menuzueira*\n\n* Ex: *${prefix}modozueira*", "autodelet": "* Ativa ou desativa a exclusão automática de mensagens ao remover um usuário Quando ativado, o bot remove o usuário e também apaga a mensagem enviada por ele, como mensagens contendo links Quando desativado, o bot apenas remove o usuário\n\n* Ex: *${prefix}autodelet*", "autoban": "* Ativa ou desativa quando ativado, o bot remover automaticamente usuários que enviarem mensagens proibidas quando desativado o usuário não será removido, apenas a mensagem proibida será deletadas ex links\n\n* Ex: *${prefix}autoban*", "x9": "* Ativa ou desativa o recurso X9 do grupo quando ativado, o bot notifica sobre alterações realizadas no grupo, como redefinição do link, remoção, aprovação ou recusa de usuários, além de promoções ou rebaixamentos de membros\n\n* Ex: *${prefix}x9*", "soadm": "* Ativa ou desativa a restrição de funções para administradores quando ativado, o bot continuará funcionando normalmente, mas os comandos so poderão ser utilizados por adms/donos/vips\n\n* Ex: *${prefix}soadm*", "autofigu": "* *${prefix}autofigu* ativa ou desativa o envio automático de figurinhas quando ativado o bot pode transformar vídeos curtos, GIFs e imagens em figurinhas automaticamente, com algumas limitações para evitar flood\n\n* Ex: *${prefix}autofigu*", "simih": "* Ativa ou desativa o sistema Simih no grupo quando ativado o bot aprende com as mensagens e interações dos usuários e depois de aprender, começa a interagir de forma automática com o grupo\n\n* Ex: *${prefix}simih*", "antilottie": "* Ativa ou desativa a proteção contra Lottie no grupo quando ativado, o bot remove figurinhas Lottie, ou seja figurinhas padrão do WhatsApp\n\n* Ex: *${prefix}antilottie*", "antienquete": "* Ativa ou desativa a proteção contra enquetes no grupo Quando ativado, o bot remove usuário que enviada enquete no grupo\n\n* Ex: *${prefix}antienquete*", "antilinkgp": "* Ativa ou desativa a proteção contra links de grupos, comunidades e canais do WhatsApp Quando ativado, o bot remove quem enviar links de grupos ou compartilhar conteúdos de canais no grupo Para bloquear links de sites e redes sociais, use *${prefix}antilink*\n\n* Ex: *${prefix}antilinkgp*", "antilink": "* Ativa ou desativa o sistema de bloqueio de links no grupo Quando ativado, o bot remove links de redes sociais, sites e outros endereços enviados pelos usuários Para bloquear especificamente links de grupos, comunidades e canais do WhatsApp *${prefix}antilinkgp*\n\n* Ex: *${prefix}antilink*", "antispam": "* Ativa ou desativa a proteção contra spam no grupo quando ativado, o bot remover usuário quer fica enviando a mes mesma mensagem em sequida válido texto/links\n\n* Não e recomendado pra grupos de divulgarão\n\n* Ex: *${prefix}antispam*", "antistatus": "* Ativa ou desativa a proteção contra status no grupo Quando ativado, se um usuário mencionar o grupo nos status, o bot poderá remover o usuário do grupo\n\n* Ex: *${prefix}antistatus*", "antistatusgp": "* Ativa ou desativa a proteção contra status do próprio grupo quando ativado se for publicar uma mensagem nos status do grupo o bot remover o contato responsável pela publicação\n\n* Ex: *${prefix}antistatusgp*", "antidoc": "* Ativa ou desativa a proteção contra documentos no grupo quando ativado, o bot remove arquivos enviados como mensagem de documento\n\n* Ex: *${prefix}antidoc*", "antipaga": "* Ativa ou desativa a proteção contra mensagens de pagamento no grupo quando ativado o bot identifica e remove mensagens relacionadas a pagamentos aquela que adm não consegui apagar\n\n* Ex: *${prefix}antipaga*", "antiloc": "* Ativa ou desativa a proteção contra localização no grupo quando ativado, o bot remove o usuário que enviar uma localização no grupo\n\n* Ex: *${prefix}antiloc*", "antisticker": "* Ativa ou desativa a proteção contra figurinhas no grupo quando ativado, o bot remove o usuário que enviar figurinhas no grupo\n\n* Ex: *${prefix}antisticker*", "anticontato": "* Ativa ou desativa a proteção contra contatos no grupo Quando ativado, o bot remove o usuário que enviar contatos pelo WhatsApp no grupo\n\n* Ex: *${prefix}anticontato*", "antiaudio": "* Ativa ou desativa a proteção contra áudios no grupo quando ativado, o bot remove o usuário que enviar áudios, incluindo áudios normais e arquivos de música em MP3\n\n* Ex: *${prefix}antiaudio*", "antivideo": "* Ativa ou desativa a proteção contra vídeos no grupo quando ativado, o bot remove o usuário que enviar vídeos no grupo\n\n* Ex: *${prefix}antivideo*", "antiimagem": "* Ativa ou desativa a proteção contra imagens no grupo quando ativado, o bot remove o usuário que enviar imagens no grupo\n\n* Ex: *${prefix}antiimagem*", "antifake": "* Ativa ou desativa a proteção contra números estrangeiros no grupo quando ativado assim que um número estrangeiro entrar no grupo será removido!\n\n* Ex: *${prefix}antifake*", "antiroubo": "* Ativa ou desativa a proteção contra roubo de administração no grupo Quando ativado, somente o dono do bot poderá promover ou rebaixar membros caso um ADM que não seja dono/vip tente rebaixar outro promover, ambos fica sem adm ate proprietário do bot resolver\n\n* Ex: *${prefix}antiroubo*", "emoji": "* Transforma um emoji em figurinha\n\n* Ex: *${prefix}emoji* 🔥", "emojimix": "* Mistura dois emojis e cria uma figurinha\n\n* Ex: *${prefix}emojimix* 😂+💀", "loli": "* Gera uma figurinha a partir de um texto\n\n* Ex: *${prefix}loli* seu texto", "rfundo": "* Remove o fundo de uma imagem e transforma em figurinha\n\n* Ex: *${prefix}rfundo* responda uma imagem", "rankcmd": "* *${prefix}rankcmd* mostra o ranking dos comandos mais usados", "noticias": "* Pesquisa notícias sobre o assunto que você escolher\n\n* Ex: *${prefix}noticias* futebol", "icms": "* Calcula o valor do ICMS de um produto\n\n* Ex: *${prefix}icms* 100", "aliquotas": "* *${prefix}aliquotas* Pesquisa a tabela de alíquotas de ICMS", "estadao": "* *${prefix}estadao* Pesquisa uma notícia do Estadão", "poder360": "* *${prefix}poder360* Pesquisa uma notícia do Poder360", "lyrics": "* Pesquisa a letra de uma música ou artista\n\n* Ex: *${prefix}lyrics nome da música*", "google": "* Pesquisa imagens no Google\n\n* Ex: *${prefix}google neyma*", "mercadolivre": "* Pesquisa produtos no Mercado Livre\n\n* Ex: *${prefix}mercadolivre celular Samsung*", "signo": "* Mostra o horóscopo do signo informado\n\n* Ex: *${prefix}signo* áries", "pinterest": "* Pesquisa imagens no Pinterest\n\n* Ex: *${prefix}pinterest* gato", "meunome": "* Mostra a origem e o significado de um nome\n\n* Ex: *${prefix}meunome* João", "clima": "* Mostra o clima atual de uma cidade\n\n* Ex: *${prefix}clima* sao luis", "filme": "* Pesquisa informações sobre um filme\n\n* Ex: *${prefix}filme* Vingadores", "receita": "*  Pesquisa receitas e mostra ingredientes e modo de preparo\n\n* Ex: *${prefix}receita* bolo de chocolate", "menu": "* *${prefix}menu* Exibe a lista completa de comandos do bot", "menuadm": "* *${prefix}menuadm* Lista de comandos restritos aos administradores do grupo", "menudono": "* *${prefix}menudono* Lista de comandos avançados restritos ao dono/vips do bot", "menuzueira": "* *${prefix}menuzueira* Comandos de brincadeiras, zoeiras e interação", "menuefeito": "* *${prefix}menuefeito* Lista de comandos para criar efeitos", "menulogo": "* *${prefix}menulogo* Lista de comandos para criar logos", "get": "* *${prefigeGet* mostra as informações da mensagem respondida", "canal": "* Mostra o ID do canal pelo link\n\n* Ex: *${prefix}canal* link do seu canal", "idgp": "* *${prefix}idgp* mostra o ID do grupo somente dono/vips", "limparbot": "* *${prefix}limparbot* limpa arquivos antigos da sessão e dados de grupos que o bot não participa mais Remove usuário da contagem que não estão mas nos grupos somente donos", "tabela": "* *${prefix}tabela* Envia uma tabela de letras e símbolos para criar nomes e nicks", "idmeu": "* *${prefix}idmeu* mostra seu nick, id e número", "git": "* *${prefix}Git* mostra como fazer instalação da bot", "calcular": "* faz cálculos usando expressões matemáticas\n\n* Ex: *${prefix}calcular* (10+10)", "info": "* Mostra as informações de um comando\n\n* Ex: *${prefix}Info* (nome de um comando)", "dono": "* *${prefix}dono* mostra as informações e o contato do dono", "checkativo": "* Mostra os dados e a atividade de um membro no grupo\n\n* Ex: *${prefix}checkativo* @usuario", "ping": "* *${prefix}ping* mostra o status, velocidade e informações do bot", "me": "* *${prefix}Me* mostra seus dados, status e atividade no grupo", "conselhobiblico": "* *${prefix}conselhobiblico* recebe um conselho bíblico para o momento", "conselho": "* *${prefix}conselho* recebe um conselho para o momento", "ddd": "* Consulta o estado e as cidades de um DDD\n\n* Ex *${prefix}ddd* 98", "gerarnick": "* Gera nicks personalizados a partir de um nome\n\n* ex: *${prefix}gerarnick* (nick)", "traduzir": "* Traduz um texto para o português Ex: ${prefix}traduzir Hello", "gerarlink": "* Gera um link de imagem e vídeo custos\n\n* Ex: *${prefix}gerarlink* imagem/vídeo", "encurtalink": "* Encurta um link para um endereço menor\n\n* Ex: *${prefix}encurtalink* (url)", "criador": "* Mostra o contato do criador do bot", "gtts": "* Transforma um texto em áudio\n\n* Ex: *${prefix}gtts* Oi tudo bem?","grupos": "* Pesquisa grupos pelo tema que você escolher\n\n* Ex: *${prefix}grupos* amizade", "ssweb": "* Tira uma captura de tela de um site\n\n* Ex: *${prefix}ssweb* (url)", "play": "* Baixa uma música do YouTube\n\n* Ex: *${prefix}play* nome da música", "playmp4": "* Pesquisa e baixa um vídeo do YouTube de até 4 minutos\n\n* Ex: *${prefix}playmp4* nome do vídeo", "memes": "* Envia um áudio de meme aleatório de acordo com o nome pesquisado\n\n* Ex: *${prefix}memes* chave","wallpaper": "* Pesquisa e envia wallpapers de acordo com o tema escolhido\n\n* Ex: *${prefix}wallpaper* naruto", "pinterestv": "* Baixa vídeos do Pinterest pelo link válido\n\n* Ex: *${prefix}pinterestv* (url)", "ttp": "* Cria figurinha de texto\n\n* Ex: *${prefix}ttp* seu texto", "qc": "* Cria uma figurinha de citação com seu texto\n\n* Ex: *${prefix}qc* lyna", "metadinha": "* *${prefix}metadinha* envia duas figurinhas combinando para usar em dupla", "ytsearch": "* Pesquisa vídeos no YouTube\n\n* Ex: *${prefix}ytsearch* música brasileira", "playstore": "* Pesquisa pesquisa aplicativos na Play Store\n\n* Ex: *${prefix}playstore* whatsapp", "futebol": "* Pesquisa os próximos jogos de um time\n\n* Ex: *${prefix}futebol flamengo*", "zerarank": "* Zera o ranking de atividade e reinicia a contagem dos membros do zero\n\nEx: *${prefix}zerarank*", "legenda":"* Adiciona duas legendas personalizadas em uma imagem Envie ou responda a uma imagem usando o comando e informe os dois textos separados por /\n\n* Ex: ${prefix}legenda texto1/texto2", "tomp3":"* Converte um vídeo em áudio no formato MP3 Envie ou responda a um vídeo usando o comando para extrair somente o áudio\n\n* Ex: ${prefix}tomp3",
+
+
+
+
+"duelo": {
+  "aliases": ["resetduelo"],
+  "texto": "* Iniciar um duelo: mencione 2 usuários e defina o tempo de duração Exemplo: *${prefix}duelo* @usuário @usuário 1min ou 1h Durante o duelo, o grupo permanecerá aberto Quando o tempo definido terminar, o bot fechará o grupo e enviará uma enquete para votação Os usuários deverão votar reagindo com 1️⃣ ou 2️⃣ A votação durará 5 minutos Ao finalizar, o bot enviará o resultado e abrirá o grupo novamente Se quiser encerrar o duelo antes do tempo, use *${prefix}resetduelo*"
+},
+"jogodavelha":{
+"aliases":["resetvelha"],
+"texto":"* Inicia um jogo da velha com outro membro Mencione o usuário que deseja desafiar O adversário poderá aceitar respondendo s ou n Se já houver uma partida em andamento, um administrador deverá usar o comando *${prefix}resetvelha* para reiniciar e começar um novo\n\n* Ex: *${prefix}jogodavelha @usuário*"
+},
+"seradm":{
+"aliases":["sermembro"],
+"texto":"* Promove ou rebaixa o dono do bot *${prefix}seradm* ou *${prefix}sermembro*"
+},
+"chekey":{
+"aliases":["addkey"],
+"texto":"* Verifica o status da Key configurada no bot e mostra o limite de solicitações restante Caso a Key não seja encontrada ou seja inválida, o bot informa que é necessário adquirir uma nova Key\n\n* Ex: *${prefix}chekey*\n\n* Adiciona ou atualiza a Key utilizada pelo bot e salva a nova Key na configuração Comando exclusivo para o dono do bot\n\n* Ex: *${prefix}addkey SUA_KEY*"
+},
+"entrar":{
+"aliases":["entrargp","sairgp"],
+"texto":"* Faz o bot entrar em um grupo através do link de convite ou sair de um grupo específico O comando é exclusivo para o dono do bot\n\n* Para entrar: *${prefix}entrar* link do grupo\n\n* Para sair veja a lista de grupos com *${prefix}listagp* e informe o número do grupo\n\n* Ex: *${prefix}sairgp 1*"
+},
+"divulgar":{
+"aliases":["divulgar"],
+"texto":"* Cria e gerencia divulgações automáticas Você pode definir o intervalo de envio, a mensagem e os grupos onde ela será enviada É possível criar até 10 divulgações ativas\n\n* Criar para todos os grupos: ${prefix}divulgar 2m/Mensagem\n\n* Criar para grupos específicos: ${prefix}divulgar 1,2,3 2m/Mensagem\n\n* Listar divulgações: ${prefix}divlist ou ${prefix}divlist 2\n\n* Pausar uma divulgação: ${prefix}divstop 1\n\n* Reativar uma divulgação: ${prefix}divativar 1\n\n* Deletar uma divulgação: ${prefix}deldivulgar 1\n\n* Parar todas as divulgações do grupo: ${prefix}divulgar parartudo\n\n* O intervalo pode ser informado em minutos ou horas, como 2m ou 2h"
+},
+"fotomenu":{
+"aliases":["logobot"],
+"texto":"* Altera a foto ou GIF do menu do bot Para alterar, envie a mídia no chat e use o comando ${prefix}${nomecmd} mencionando a mídia Para voltar à foto padrão da Lyna, use ${prefix}${nomecmd} 0"
+},
+"blockmemb":{
+"aliases":["blockmemb"],
+"texto":"* Bloqueia membros marcados (@usuários) de utilizar o bot\n\n* *${prefix}blockmemb* @ para bloquear\n\n* *${prefix}dblockmemb* @ para desbloquear"
+},
+"ativarcanal":{
+"aliases":["altecanal"],
+"texto":"* O comando *${prefix}ativarcanal* ativa o envio do canal em algumas mensagens programadas ex mesagem de erro Caso queira alterar o canal, use *${prefix}altecanal* (URL do seu canal)"
+},
+"blockcmd":{
+"aliases":["desblocmd","listacmd"],
+"texto":"* Bloqueia um comando no grupo, impedindo que ele seja utilizado por usuários exemplo: *${prefix}blockcmd play*\n\n* Para desbloquear o comando novamente *${prefix}desblocmd* play\n\n* Ver lista de comandos bloqueados *${prefix}listacmd*"
+},
+"addvip":{
+"aliases":["remvip"],
+"texto":"* Adiciona um usuário como VIP do bot Para isso, marque ou responda à mensagem do usuário Apenas o dono do bot pode adicionar ou remover VIPs\n\n* Para remover um usuário do VIP, use *${prefix}remvip* e marque ou responda à mensagem dele\n\n* Ex: marque o usuário e use *${prefix}addvip*\n* Ex: marque o usuário e use *${prefix}remvip*"
+},
+"dono1":{
+"aliases":["dono2","dono3"],
+"texto":"* Permitem adicionar ou alterar os números dos donos adicionais do bot Informe o número com DDD e código do país O número precisa estar exatamente como aparece no WhatsApp, permitido adicionar até 3 donos adicionais: dono1, dono2 e dono3, as alterações so pode se realizada com número que ja e dono ou com próprio bot\n\n* Pra verificar antes de alterar donos\n\n* Ex: *${prefix}${nomecmd}* 5599999999999"
+},
+"checkupdate":{
+"aliases":["atualizar","atualizar_modulo"],
+"texto":"* Verifica se existe uma nova versão do bot disponível *${prefix}checkupdate*\n\n* Se houver uma atualização disponível, o bot irá avisar Para atualizar o bot *${prefix}atualizar*\n\n* Não se preocupe, você não vai perder nenhuma configuração de grupo nem nem dono, mas se preferir fazer um backup antes, fica por sua conta\n\n* Já o comando *${prefix}atualizar_modulo* nem sempre é necessário Ele serve para atualizar as dependências do bot O mais recomendado é acompanhar o canal da lyna para saber quando houver alguma atualização nas dependências\n\n* Sistema esta em teste blz"
+},
+"confibot":{
+"texto":"* *${prefix}confibot* mostra o painel de configuração do bot, disponível somente para o dono Nele, o dono pode consultar os principais comandos para alterar informações do bot e verificar o status de algumas funções\n\n* Entre as opções estão alterar o número e o nome do dono, alterar o nome do bot, mudar a foto do menu, alterar o prefixo e consultar o status de recursos do bot, você pode configurar com número ja administrador como dono ou com próprio bot em gualque chat"
+},
+"antiflood":{
+"texto":"* *${prefix}antiflood* ativa ou desativa a proteção contra flood nos comandos do bot Você define em quantos segundos o bot deve bloquear a execução de novos comandos do mesmo usuário Durante esse período, os comandos enviados pelo usuário não serão executados\n\n* O número informado é em segundos Por exemplo, *5* significa um intervalo de 5 segundos, enquanto *60* significa 60 segundos, ou seja, 1 minuto\n\n* Quanto menor o número, menor será o intervalo entre os comandos permitidos\n\n* Para ativar, informe o intervalo em segundos\n* Para desativar, use *off*\n\n* Ex: *${prefix}antiflood 5*\n* Ex: *${prefix}antiflood off*"
+},
+"mute":{
+"aliases":["mutar","desmute"],
+"texto":"* Muter usuário bom após mutar ele(a) enviar uma mesagem sera removido imediatamente do grupo \n\n* Ex: *${prefix}mute (@usuário ou marca)*\n* Ex: *${prefix}desmute (@usuário ou marca)*"
+},
+"nomegp":{
+"aliases":["descgp"],
+"texto":"* Altera nome do grupo e descrição somente adms pode utilizar\n\n* Ex: *${prefix}nomegp grupo de putari kkkk*\n* Ex: *${prefix}descgp proibido putari kkkk*"
+},
+"listanegra":{
+"aliases":["tirardalista","listaban"],
+"texto":"* Adiciona um usuário à Lista Negra do grupo após adicionar um usuário na lista negra assim que ele(a) e removido automaticamente comando específico para adms\n\n* Para ver todos os usuários que estão na lista negra do grupo, use *${prefix}listaban*\n\n* Ex: *${prefix}listanegra 559999999999*\n* Ex: *${prefix}tirardalista 559999999999*"
+},
+"listanegrag":{
+"aliases":["tirardalistag"],
+"texto":"* Adiciona um usuário à Lista Negra Global após usuário entra na lista negraG, sera removido (a) de todos os grupos que bot for adm imediatamente\n\n* Somente dono|vip\n\n* Para adicionar alguém, marque o usuário ou informe o número\n\n* Para remover alguém da Lista Negra Global, use *${prefix}tirardalistag* e informe o usuário ou número\n\n* Ex: *${prefix}listanegrag 559999999999*\n* Ex: *${prefix}tirardalistag 559999999999*"
+},
+"addpalavrao":{
+"aliases":["delpalavrao","zerapalavrao","listarpalavrao"],
+"texto":"* Adiciona uma palavra à lista de palavras proibidas no grupo Depois de cadastrada, se alguém enviar uma das palavras registradas, ele será removido\n\n* Para remover uma palavra específica, use *${prefix}delpalavrao* seguido da palavra\n\n* Para apagar todas as palavras *${prefix}zerapalavrao*\n\n* Para visualizar todas as palavras cadastradas no grupo *${prefix}listarpalavrao*\n\n* Ex: *${prefix}addpalavrao pura*\n* Ex: *${prefix}delpalavrao pura*\n* Ex: *${prefix}zerapalavrao*\n* Ex: *${prefix}listarpalavrao*"
+},
+"addlimite":{
+"aliases":["dellimite"],
+"texto":"* Define a quantidade máxima de caracteres permitida nas mensagens do grupo Quando um usuário enviar uma mensagem passando esse limite, o bot irá remover\n\n* Para alterar o limite, use o comando novamente com outro número\n\n* Para remover o limite definido, use *${prefix}dellimite*\n\n* Ex: *${prefix}addlimite 500*\n* Ex: *${prefix}dellimite*"
+},
+"notagp":{
+"aliases":["deltnota"],
+"texto":"* Cria e gerencia notas do grupo Você pode salvar uma nota com nome e mensagem, responder a uma mensagem para salvar o conteúdo ou salvar uma imagem com legenda\n\n* O grupo pode ter no máximo 3 para o bot enviar notas você ${prefix}nome-da-sua-nota\n\n* Para apagar uma nota, use *${prefix}deltnota nome-da-sua-nota* seguido do nome da nota\n\n* Ex: *${prefix}notagp aviso/mensagem ou respode*\n* Ex: *${prefix}aviso Para chamar sua nota*\n* Ex: *${prefix}deltnota aviso*"
+},
+"limparank":{
+"aliases":["cleanrank"],
+"texto":"* Limpa o ranking do grupo, removendo do banco de dados os membros que não fazem mais parte do grupo Assim, o ranking fica atualizado e não mantém usuários que já saíram*\n\n* Ex: *${prefix}${nomecmd}*"
+},
+"deletar": {
+"aliases": ["delete", "del", "d"],
+"texto": "* Paga uma mensagem do grupo Marque ou responda a mensagem que deseja apagar, seja de um usuário ou até mesmo uma mensagem enviada pelo próprio bot\n\n* O comando também consegue apagar mensagens de pagamento que normalmente não podem ser removidas pelos métodos comuns\n\n* Ex: *${prefix}${nomecmd}* respondendo a mensagem"
+},
+"rebaixar": {
+ "aliases": ["promover"],
+ "texto": "* Promove ou rebaixar um membro no grupo\n\n* Ex: *${prefix}${nomecmd}* @usuário ou mencione a mesagem"
+},
+"bemvindo": {
+  "aliases": ["saida","fotobv","legendabv","legendasaiu","fundobv","fundosaiu"],
+  "texto": "* Sistema de boas-vindas e saídas de membros no grupo\n\n* *${prefix}bemvindo* (ativa ou desativa)\n* *${prefix}saida* (ativa ou desativa saída)\n* *${prefix}fotobv* (ativa ou desativa a imagem)\n* *${prefix}x9* (mostra o administrador responsável pela aprovação da entrada)\n-\n* *${prefix}fundobv* (altera o fundo de boas-vindas)\n* *${prefix}fundosaiu* (altera o fundo de saída)\n\nDepois de ativar, o bot já enviará uma mensagem padrão da Lyna, mas você pode personalizar tudo do seu jeito\n\nSe ativar as imagens e não gostar do fundo, também pode trocar o fundo globalmente:\n\n* *${prefix}fundobv* menina a imagem\n* *${prefix}fundosaiu* menina a imagem\n\nPara personalizar suas mensagens, você pode usar estas marcações:\n\n*#numerodele#* marca o membro que entrou ou saiu\n*#nomedogp#* mostra o nome do grupo\n*#desc#* mostra a descrição do grupo\n*#membros#* mostra a quantidade de membros\n*#adm#* mostra o administrador que aprovou a entrada, somente com o *${prefix}x9* ativado\n\nMensagem de boas-vindas, por exemplo:\n\n* *${prefix}legendabv* Olá, seja bem-vindo(a) #numerodele#! 👋\n\n👤 Administrador que aprovou sua entrada: #adm#\n\n📖 Leia a descrição do grupo:\n#desc#\n\nMensagem de saída, por exemplo:\n\n* *${prefix}legendasaiu* Vai com Deus, #numerodele#! 👋\n\nSe não gostar ou quiser parar de usar alguma função, basta desativar:\n\n* *${prefix}bemvindo*\n* *${prefix}saida*\n\nEste é apenas um exemplo Você pode criar suas próprias mensagens usando as marcações disponíveis"
+},
+"status": {
+  "aliases": ["configp"],
+  "texto": "* Mostra o status das funções do grupo, indicando quais estão ativadas ou desativadas\n\n* *${prefix}${nomecmd}*"
+},
+"ban": {
+  "aliases": ["b"],
+  "texto": "* Comando de remover usuário marca mesagem dele (a) ou marcar o @usuários remover e deletar mesagem também deletar mesagem de pagamento aquelas que adm nao conseguir apagar\n\n* *${prefix}${nomecmd}* @usuário ou marcar mesagem"
+},
+"modoff": {
+  "aliases": ["ativo"],
+  "texto": "* *${prefix}modoff* ativa o modo ausente e *${prefix}ativo* desativa o modo ausente\n\n*1* Use *${prefix}modoff* para ativar seu modo ausente\n*2* Você pode adicionar uma mensagem informando o motivo da ausência\n\n* Ex: *${prefix}modoff* estou trabalhando, volto mais tarde\n\n*3* Quando voltar, use *${prefix}ativo* para desativar o modo ausente\n\n* Ex: *${prefix}ativo*\n\n💤 Enquanto estiver ausente, o bot poderá informar que você está ausente e mostrar a mensagem definida"
+},
+"gpt": {
+  "aliases": ["chatgpt"],
+  "texto": "* Pesponde perguntas usando inteligência artificial\n\n* Ex: *${prefix}${nomecmd}* explique o que é inteligência artificial"
+},
+"gerarimg": {
+  "aliases": ["criarimg"],
+  "texto": "* Cria uma imagem usando inteligência artificial\n\n* Ex: *${prefix}${nomecmd}* (gato astronauta)"
+},
+"transcrever": {
+  "aliases": ["totext"],
+  "texto": "* Transforma um áudio em texto\n\n* Ex *${prefix}${nomecmd} (áudio pra transcrever)*"
+},
+"amazon": {
+  "aliases": ["produto"],
+  "texto": "* Pesquisa produtos na Amazon\n\n* Ex: *${prefix}${nomecmd}* iphone"
+},
+"frase": {
+  "aliases": ["frases"],
+  "texto": "* Pesquisa frases de acordo com um tema\n\n* Ex: *${prefix}${nomecmd}* amor"
+},
+"sinonimos": {
+  "aliases": ["sinônimo", "sinonimo"],
+  "texto": "* Pesquisa sinônimos de uma palavra\n\n* Ex: *${prefix}${nomecmd}* bonito"
+},
+"serie": {
+  "aliases": ["series"],
+  "texto": "* Pesquisa informações sobre uma série\n\n* Ex: *${prefix}${nomecmd}* The Boys"
+},
+"uol": {
+  "aliases": ["noticiasuol"],
+  "texto": "* *${prefix}${nomecmd}* mostra uma notícia do UOL"
+},
+"g1noticias": {
+  "aliases": ["g1"],
+  "texto": "* *${prefix}${nomecmd}* mostra as principais notícias do G1"
+},
+"toimg": {
+  "aliases": ["togif"],
+  "texto": "* Transforma figurinha em imagem ou GIF\n\n* Ex *${prefix}toimg* (figurinha normal)\n\n* Ex *${prefix}togif* (figurinha animada)"
+},
+"roubar": {
+  "aliases": ["renomear", "rename"],
+  "texto": "* Altera o nome e autor de uma figurinha marcar a figurinha com o comando\n\n* Ex: *${prefix}${nomecmd}*\n\n* Ex: *${prefix}${nomecmd}* (texto)\n\n* Ex: *${prefix}${nomecmd}* nome/autor"
+},
+"attp": {
+  "aliases": ["attp2", "attp3", "attp4", "attp5", "attp6", "attp7", "attp8", "attp9", "attp10"],
+  "texto": "* Cria figurinha com texto, você pode alterar o estilo da figurinha exemplos attp, attp2 até o 10\n\n* Ex: *${prefix}${nomecmd}* (seu texto)"
+},
+"sticker": {
+  "aliases": ["s"],
+  "texto": "* *${prefix}s* transforma imagem ou vídeo em figurinha\n\n* Ex: *${prefix}s* gif/img/vídeo 8s"
+},
+"faceaudio": {
+  "aliases": ["face_audio", "facevideo", "face_video"],
+  "texto": "* Baixa vídeos ou áudios do Facebook pelo link\n\n* Ex *${prefix}faceaudio* (url do vídeo)\n\n* Ex pra vídeo *${prefix}facevideo* (url pra áudio)"
+},
+"instagram": {
+  "aliases": ["instaaudio"],
+  "texto": "* Baixa vídeos ou áudios do Instagram pelo link\n\n* Ex *${prefix}instagram* (url do vídeo)\n\n* Ex *${prefix}instaaudio* (url pra áudio)"
+},
+"tiktok_video": {
+  "aliases": ["tiktokvideo", "tiktok_audio", "tiktokaudio"],
+  "texto": "* Baixa vídeos ou áudios do TikTok pelo link\n\n* Ex pra vídeo *${prefix}tiktokvideo (url do vídeo)*\n\n* Ex pra áudio *${prefix}tiktokaudio (url pra áudio)*"
+},
+"kwai": {
+  "aliases": ["kwaiaudio"],
+  "texto": "* Baixa vídeos ou áudios do Kwai pelo link\n\n* Ex *${prefix}kwai (url do vídeo)*\n\n* Ex *${prefix}kwaiaudio (url pra áudio)*"
+},
+"ytmp3": {
+  "aliases": ["ytmp4"],
+  "texto": "* Baixa músicas ou vídeos do YouTube de até 4 minutos\n\n* Ex *${prefix}ytmp3 (url da música)*\n\n* Ex *${prefix}ytmp4 (url do vídeo)*"
+},
+"figcmd": {
+  "aliases": ["setid"],
+  "texto": "* *${prefix}figcmd* Bot enviará figurinhas que interagir com o bot caso queira mudar as figurinhas, mencione a figurinha que deseja adicionar use *${prefix}setid* defina qual deseja alterar, por ex: *${prefix}setid* abrir/fechar/ban"
+},
+"abrir": {
+  "aliases": ["fechar", "cancelar", "listahora"],
+  "texto": "* Programar abertura ou fechamento automático do grupo\n\n*Exemplos:*\n* *${prefix}abrir 8:00/d* — Abre às 8h da manhã\n* *${prefix}fechar 11:00/n* — Fecha às 11h da noite\n\n*Sufixos de horário:*\n* *d* = Manhã\n* *t* = Tarde\n* *n* = Noite\n* *m* = Madrugada\n\n⚠️ Evite agendar em muitos grupos para o mesmo minuto para não causar atrasos na execução\n\nFuso horário base: *America/Sao_Paulo*"
+},
+"galaxy-light":{
+ "aliases":["galaxy", "glitch", "graffiti", "metallic", "glossy", "dragonfire", "goldpink", "pubgavatar", "ffavatar", "amongus", "comics", "cemiterio", "blood", "hallobat", "titanium", "eraser", "halloween", "snow", "america", "mascoteneon", "doubleexposure", "metal", "3dcrack", "colorful", "multicolor", "graffitistyle", "frozen", "ligatures", "watercolor", "summerbeach", "cloudsky", "techstyle", "firework", "mascotemetal", "fluffy", "lava", "cool", "comic", "fire", "water", "ice", "elegant", "gold", "fortune", "blue", "silver", "neon", "retro", "candy", "glossy", "graffiti", "steel", "glow", "matrix", "chrome", "magic", "space", "logo3d", "monster"],
+ "texto":"* Gera uma imagem personalizada com o nome ou texto que você quiser\n\n* Ex: ${prefix}${nomecmd} seu texto"
+},
+"captain":{
+ "aliases":["graffitiwall", "phlogo", "blackpink", "deadpool", "glitter", "vintage3d"],
+ "texto":"* Gera uma imagem personalizada com os nomes ou textos que você quiser\n\n* Ex: ${prefix}${nomecmd} texto/texto"
+},
+"comunismo":{
+"aliases":["bolsonaro", "affect", "beautiful", "del", "facepalm", "magik", "rip", "jail", "trash", "sepia", "wanted", "wasted", "lgbt", "karaba", "bnw", "blur", "circle", "invert", "pixelate", "rotate", "deepfry", "cartoon", "emboss", "vaporwave", "oilpaint", "pixelart", "duotone", "colorize", "thermal", "mirror", "fisheye", "edge"],
+"texto":"* Aplica um efeito ou montagem personalizada em uma imagem Envie ou responda a uma imagem usando o comando para aplicar o efeito escolhido\n\n* Ex: *${prefix}${nomecmd}*"
+},
+"videocontrario":{
+"aliases":["videolento","videorapido"],
+"texto":"* Faz alterações em um vídeo Envie ou marque um vídeo usando o comando para aplicar o efeito desejado\n\n* Ex: ${prefix}${nomecmd}"
+},
+"grave":{
+"aliases":["vozmenino","bass","bass2","estourar","audiorapido","esquilo","adolesc","audiolento"],
+"texto":"* Aplica diferente em um áudio mencione o audio e usa\n\n* Ex: *${prefix}${nomecmd}*"
+},
+"grave":{
+"aliases":["vozmenino","bass","bass2","estourar","audiorapido","esquilo","adolesc","audiolento"],
+"texto":"* Aplica diferentes efeitos em um áudio Mencione ou responda ao áudio usando o comando para aplicar o efeito desejado\n\n* Ex: ${prefix}${nomecmd}"
+}
+
+}
+
+
+
+
+
