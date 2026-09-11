@@ -11,10 +11,10 @@
     "type": "git",
     "url": "https://github.com/Lynabot-md"
   },
-  "scripts": {
-    "start": "node iniciar.js",
+"scripts": {
+    "start": "node --max-old-space-size=400 iniciar.js",
     "dev": "nodemon iniciar.js"
-  },
+},
   "dependencies": {
     "@hapi/boom": "^10.0.1",
     "@whiskeysockets/baileys": "^7.0.0-rc14",

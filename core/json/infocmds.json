@@ -1,5 +1,4 @@
 {
-
 "rankgay":{
 "texto":"* Cria um ranking aleatório dos 5 membros do grupo relacionados ao tema gay, exibindo os participantes em uma classificação divertida\n\n* Ex: *${prefix}rankgay*"
 },
