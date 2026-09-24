@@ -238,7 +238,7 @@
 },
 "abrir": {
   "aliases": ["fechar", "cancelar", "listahora"],
-  "texto": "* Programar abertura ou fechamento automático do grupo\n\n*Exemplos:*\n* *${prefix}abrir 8:00/d* — Abre às 8h da manhã\n* *${prefix}fechar 11:00/n* — Fecha às 11h da noite\n\n*Sufixos de horário:*\n* *d* = Manhã\n* *t* = Tarde\n* *n* = Noite\n* *m* = Madrugada\n\n⚠️ Evite agendar em muitos grupos para o mesmo minuto para não causar atrasos na execução\n\nFuso horário base: *America/Sao_Paulo*"
+  "texto": "* Programar abertura ou fechamento automático do grupo\n\n*Exemplos:*\n* *${prefix}abrir 8:00/d* — Abre às 8h da manhã\n* *${prefix}fechar 11:00/n* — Fecha às 11h da noite\n\n*Sufixos de horário:*\n* *d* = Manhã\n* *t* = Tarde\n* *n* = Noite\n* *m* = Madrugada\n\n* *${prefix}listahora* — Ver lista de horários programados\n* *${prefix}cancelar* — Cancelar um horário programado\n\n⚠️ Evite agendar em muitos grupos para o mesmo minuto para não causar atrasos na execução\n\nFuso horário base: *America/Sao_Paulo*"
 },
 "galaxy-light":{
  "aliases":["galaxy", "glitch", "graffiti", "metallic", "glossy", "dragonfire", "goldpink", "pubgavatar", "ffavatar", "amongus", "comics", "cemiterio", "blood", "hallobat", "titanium", "eraser", "halloween", "snow", "america", "mascoteneon", "doubleexposure", "metal", "3dcrack", "colorful", "multicolor", "graffitistyle", "frozen", "ligatures", "watercolor", "summerbeach", "cloudsky", "techstyle", "firework", "mascotemetal", "fluffy", "lava", "cool", "comic", "fire", "water", "ice", "elegant", "gold", "fortune", "blue", "silver", "neon", "retro", "candy", "glossy", "graffiti", "steel", "glow", "matrix", "chrome", "magic", "space", "logo3d", "monster"],

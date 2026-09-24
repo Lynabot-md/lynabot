@@ -1,7 +1,7 @@
 {
   "name": "lyna-bot",
-  "version": "3.1.6",
-  "description": "🤖 Lyna Bot — um poderoso bot de WhatsApp criado para dominar os grupos",
+  "version": "3.1.7",
+  "description": "🤖 Lyna Bot um poderoso bot de whatsApp criado para dominar os grupos",
   "author": "Velton",
   "type": "module",
   "main": "iniciar.js",
@@ -16,8 +16,8 @@
     "dev": "nodemon iniciar.js"
 },
   "dependencies": {
-    "@hapi/boom": "^10.0.1",
     "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "@hapi/boom": "^10.0.1",
     "assemblyai": "^4.16.1",
     "axios": "^1.13.1",
     "cfonts": "^3.3.1",
@@ -31,7 +31,6 @@
     "moment-timezone": "^0.6.1",
     "node-cache": "^5.1.2",
     "node-fetch": "^3.3.2",
-    "node-upload-images": "^1.0.1",
     "node-webpmux": "^3.2.1",
     "pino": "^10.1.0",
     "qrcode-terminal": "^0.12.0",
