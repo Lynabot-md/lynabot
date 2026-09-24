@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Allan-2023/store/refs/heads/main/imgs/logo.png" width="700" alt="Lyna Bot Banner"/>
 </p><p align="center">
-  <img src="https://img.shields.io/badge/LYNA--BOT-3.1.6-111827?style=for-the-badge&logo=whatsapp&logoColor=white">
+  <img src="https://img.shields.io/badge/LYNA--BOT-3.1.7-111827?style=for-the-badge&logo=whatsapp&logoColor=white">
   <img src="https://img.shields.io/badge/OPEN%20SOURCE-✓-7C3AED?style=for-the-badge">
 </p><p align="center">
   <strong>🤖 O bot completo para transformar seus grupos do WhatsApp</strong>
