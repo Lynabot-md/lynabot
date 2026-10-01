@@ -6,8 +6,9 @@
   "fundobv": "",
   "fundosaiu": "",
   "visual": "on",
-  "antipv": "on",
+  "antipv": "off",
   "lynabot": "off",
+  "hotrelo": "off",
   "eCanal": "on",
   "blockmemb": [],
   "listanegrag": []

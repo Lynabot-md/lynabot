@@ -22,7 +22,9 @@ return  `​​​​​​​​​​​​​​​​​​​​​​​�
 
 ⬖ ${prefix}play • música
 ⬖ ${prefix}playvideo • nome
-⬖ ${prefix}shazam • audio *
+⬖ ${prefix}twitter • link
+⬖ ${prefix}spotify • link
+⬖ ${prefix}scaudio • link
 ⬖ ${prefix}memes • nome
 ⬖ ${prefix}kwai • link
 ⬖ ${prefix}kwaiaudio • link
@@ -87,6 +89,7 @@ return  `​​​​​​​​​​​​​​​​​​​​​​​�
 
 *🔍 PESQUISA*
 
+⬖ ${prefix}cep • seu cep
 ⬖ ${prefix}google • web *
 ⬖ ${prefix}ytsearch • artista
 ⬖ ${prefix}pinterest • nome

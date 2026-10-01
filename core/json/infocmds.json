@@ -1,4 +1,18 @@
 {
+
+"twitter": {
+  "texto": "* Baixa vídeos ou mídias do Twitter/X pelo link enviado\n\n* Ex: *${prefix}twitter* (url do tweet)"
+},
+"spotify": {
+  "texto": "* Baixa músicas ou faixas diretamente do Spotify pelo link enviado\n\n* Ex: *${prefix}spotify* (url da música)"
+},
+"scaudio": {
+  "texto": "* Baixa áudios e músicas do SoundCloud pelo link enviado\n\n* Ex: *${prefix}scaudio* (url da música)"
+},
+"cep": {
+  "texto": "* Consulta dados completos de um endereço através do CEP informado\n\n* Ex: *${prefix}cep* 99999-000"
+},
+
 "rankgay":{
 "texto":"* Cria um ranking aleatório dos 5 membros do grupo relacionados ao tema gay, exibindo os participantes em uma classificação divertida\n\n* Ex: *${prefix}rankgay*"
 },
