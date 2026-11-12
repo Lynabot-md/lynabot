@@ -90,10 +90,10 @@ return  `​​​​​​​​​​​​​​​​​​​​​​​�
 *🔍 PESQUISA*
 
 ⬖ ${prefix}cep • seu cep
-⬖ ${prefix}google • web *
+⬖ ${prefix}google • web 
 ⬖ ${prefix}ytsearch • artista
 ⬖ ${prefix}pinterest • nome
-⬖ ${prefix}lyrics • letra *
+⬖ ${prefix}lyrics • letra 
 ⬖ ${prefix}clima • cidade
 ⬖ ${prefix}signo • signo
 ⬖ ${prefix}filme • filme

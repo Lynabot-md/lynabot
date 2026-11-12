@@ -1,17 +1,18 @@
 
 
+
+
+
+
+
+
+// // MESAGEM DE ADV
+ export const alerta = (sender, motivo1, motivo2) => `🙅‍♀️ O usuário @${sender.split('@')[0]} foi removido com sucesso após cometer a infração "${motivo1}" e ${motivo2} 👋`;
+ 
+export const alerTaR = (sender, motivo2) => `⚠️ Vixi! Quebrou a regra *${motivo2}* Na próxima é BAN sem volta! Leia a descrição. @${sender.split('@')[0]}`;
+
+// // efeito 
 export const audioeff = '❌ Você precisa responder a uma mensagem de áudio para usar este comando!';
-
-
-
-
-
-
-
-// mensagem de alerta
-export const alerTa = (sender, motivo1, motivo2) => `🚫 *USUÁRIO REMOVIDO* @${sender.split('@')[0]}\n\n*Motivos mandou:*\n• antes: ${motivo1}\n• agora: ${motivo2}\n\nbys: 😽`;
-
-export const alerTaR = (sender, motivo2) => `⚠️ Opa @${sender.split('@')[0]} aqui não pode enviar ${motivo2}.\n\nNa próxima vez você será removido ler as regras`;
 
 // ativado comandos 
 export const cmdon = (command, prefix) => `*✔* O comando *${command}* foi ativado com sucesso!\n\n* Dúvidas? Use ${prefix}info ${command}`;
@@ -26,43 +27,39 @@ export const Maudio = '*[ 🎵 ]* você precisa mencionar um audio como o comand
 
 export const artista = '🎤 Opaaa, você esqueceu de informar o nome do artista, meu bem ✨';
 
+// mesagem do modo modozueira
+ export const Zueira = (prefix) => `Opa! Este comando só pode ser utilizado com o modo modozueira ativado no grupo. Use: *${prefix}modozueira*`;
 
+// // MENSAGENS D3 BAN
+ export const bankk = (usuario) => { const responses = [`Foi tarde ${usuario} olha que ainda demorou 🙇`, `Até que enfim o grupo se livrou dessa praga ruim kkkk`, `${usuario} saiu. Ninguém viu mas todo mundo sentiu alívio....`, `Tchau, ${usuario}. A gente finge que vai sentir falta 👋`, `Finalmente uma boa notícia no grupo: ${usuario} foi de base 😂`]; return responses[Math.floor(Math.random() * responses.length)]; };
 
-// megs modo brincadeira 
-export const Zueira = (prefix) => `Opa! Este comando só pode ser utilizado com o modo brincadeiras ativado no grupo. Use: *${prefix}modozueira*`;
-
-
-// meg de erros 
-export const error = () => { const responses = ['🤖 Ops! Meu cérebro deu tilt, tenta de novo daqui a pouco!', '🥴 Eita, algo travou aqui! Dá mais uma chance em breve.', '💥 Poxa, deu ruim! Mas não desista, tenta outra vez.', '😅 Ai ai, buguinho à vista! Tente novamente daqui a pouco.', '🙃 Oops! Algo não saiu como o esperado… tenta de novo!', '🤭 Não deu certo dessa vez, mas logo a gente resolve!', '😜 Humm, algo estranho aconteceu… tenta mais tarde!', '😎 Relaxa, apenas um erro passageiro! Tenta de novo.', '🤔 Ué, algo falhou aqui… vamos fingir que não aconteceu e tenta depois!', '😂 Ihhh, deu tilt! Mas não se preocupe, tenta novamente logo.', '😬 Ops, bug mode ativado! Volta e tenta outra vez.', '😵 Não foi dessa vez, mas eu acredito em você, tenta de novo!', '🤯 Algo explodiu aqui… mas logo volta ao normal!', '😇 Poxa, deu erro, mas olha pelo lado bom: você pode tentar de novo!', '💫 Ai, meu sistema pirou! Dá outra chance daqui a pouco.', '🙃 Hahaha, não deu certo, mas rir é o melhor remédio! Tente novamente.', '🥳 Ops, bug festa aqui! Mas logo tudo volta ao normal.', '😶‍🌫️ Hmm, algo não encaixou… tenta outra vez.', '🤪 Eita, deu ruim! Mas não se preocupe, você consegue na próxima.', '🫣 Ufa, escapamos de um desastre… mas deu erro! Tente novamente.']; return responses[Math.floor(Math.random() * responses.length)];
+// // MENSAGENS SEM GRUPO 
+ export const apenasGrupo = () => { const responses = ["Apenas em grupos esse comando pode ser utilizado 🛡", "🙆‍♀️ Sem grupo, não dá pra executar...", "💣 Boom! Comando explodiu porque não tem grupo..", "Comando congelado! Fora do grupo ❄"]; 
+ return responses[Math.floor(Math.random() * responses.length)];
 };
 
-// meg so dono!
-export const dono = () => {
-  const responses = ["🚫 Ei, calma lá! Só o *chefão supremo* pode usar esse comando 😎👑", "😼 Haha... esse comando é restrito! Só o *Dono do pedaço* tem acesso 🕶️🔥", "🛑 Acesso negado! Você não é o *Dono supremo da bagunça* 😂", "🤖 Esse comando é nível *ADMIN MASTER DOS MESTRES*... e você não é ele! 😜", "🪄 Só o *Mágico supremo do bot* pode invocar esse poder ✨ (spoiler: não é você 😂)", "🙅‍♂️ Ops! Esse comando é exclusivo do *chefão da firma* 🧠💼", "😏 Hehehe... tá achando que é o dono? Esse aqui é comando *só pra lendas!* 👑", "👀 Oxi... quer usar comando de dono? Então vira o dono primeiro 😂🔑", "💂‍♂️ Acesso negado! Esse comando está guardado pelo *Exército dos Bots Leais* 🪖🤖", "🧙‍♂️ Você tentou conjurar um feitiço proibido! Só o *Mago Supremo do grupo* pode! ✨📜", "🕵️‍♂️ Detetive curioso detectado... mas sem autorização do *chefe da operação*! 🕶️", "💀 Acesso negado. Tente novamente quando for o *Deus dos Bots* 😂⚡", "🥸 Haha! Só o *patrão premium edition* pode usar isso 🤣💼", "📛 Código vermelho! Invasor tentando usar comando de dono! 🚨😂", "🧤 Esse comando tá mais protegido que a senha do Wi-Fi do vizinho 🔐", "🧩 Parece que você esqueceu o item: *Permissão de Dono +1000* 🪄😂", "🦸‍♂️ Esse poder é nível super-herói... e você ainda tá de estagiário 😜", "🤪 Hehe, quase! Falta só virar o dono pra usar isso 🗝️👑", "🧨 A tentativa foi boa, mas o comando te explodiu 💥 (brincadeira... ou não 😏)", "🧸 Hmmm... tão fofinho tentando usar comando de dono 🥺✨", "🛡️ Proteção ativada: bloqueando curiosos sem permissão de chefia! 🧱😎", "🎩 Abra kadabra... nada aconteceu! Porque você não é o dono 😂", "🚔 Polícia dos comandos: você está preso por tentar usar poder alheio! 👮‍♂️🤣", "🧃 Tome seu suquinho e relaxa... esse comando é do *chefão*, não seu 🍹😅", "👾 Sistema diz: 'Erro 404 — permissão de dono não encontrada' 🤖⚠️","🥷 Ninja do bot detectou invasor... *Sumindo na fumaça* 💨😂","🐧 Tente novamente quando for o *Pinguim Supremo do Sistema* 🐧👑","🛸 Acesso alienígena negado! Esse comando é só pra o comandante 👽🚫","🧊 Calma Frozen! Esse comando tá congelado pro seu nível ❄️🤣","🐢 Devagar aí, Ninja das Permissões! Esse comando é do *Sensei do bot* 🥋","🦜 Repete comigo: 'Eu não sou o dono' 🦜 Boa! Agora vai tomar um suquinho 🍹","🪅 Parabéns! Você desbloqueou... nada! Porque não é o dono 🎉🤣","🎲 Rolou o dado da sorte... caiu em *sem permissão* 🎯😂","🪖 Ordem do general: só o dono executa isso, soldado! 🫡","🧜‍♀️ Esse comando é subaquático... só o *Rei Netuno* do bot pode usar 🐠👑","🛑 Erro crítico: usuário tentando ser o dono! Sistema rindo fortemente 😂","🕸️ Enroscou na teia dos comandos proibidos 🕷️💢","📞 O dono ligou: mandou avisar que não é pra mexer aqui ☎️😂","💅 Calma influencer, esse comando não é pra você ainda 💄🤣"]; return responses[Math.floor(Math.random() * responses.length)];
+// // mesagem bot sem adm  
+ export const botAdm = () => { const responses = ["Opa não sou adm my bad 🙇", "Eu tô na lista de admins? 🤨", "Adm? Sem adm eu mal consigo cuidar de mim 😂", "Queria ser adm, mas não me deram moral 😔", "Não sou adm não, só tô de enfeite por aqui 😼"];
+ return responses[Math.floor(Math.random() * responses.length)];
 };
 
-//﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏ sem admin
-export const semAdm = () => { const responses = [ "🧠 Tentou usar comando de ADM sem ser ADM... genial! 😂", "🛑 Erro 401: Permissão de ADM não encontrada 💾😅", "📛 Bloqueio! Você não é ADM, mas é engraçado tentando ser 😂","🐢 Devagar aí, guerreiro! Esse comando é só pros ADM ninja 🥷","🧃 Tome seu suquinho e aceita você não é ADM 🍹🤣",  "🪅 Tcharam! Nada aconteceu porque você não é ADM 🎉🤣", "🎭 Tentando se passar por ADM? Boa atuação, mas sem efeito 😏","🙆‍♀️ O bot viu tudo... e sabe que você não é ADM 😎", "🧤 Permissão insuficiente! Volte quando tiver o cargo de ADM 💋","🎤 O bot anuncia: 'esse usuário não é ADM!' 🎶🤣", "📞 O ADM real ligou mandou avisar que não é pra mexer nisso ☎️","🧩 Tentando burlar o sistema? O bot te viu 👁️‍🗨️", "🦜 Repete comigo: 'eu não sou ADM' 🦜 Boa! Agora relaxa 😂",  "🧤 Proteção ativada! ADM falso bloqueado 🧱","🐍 Cuidado! O comando de adm pode te picar, curioso (a) 🐍💥", "🪅 Você foi promovido... na sua imaginação 🎉🤣", "🎉 Parabéns! Você acaba de descobrir que não é ADM 🥳"]; return responses[Math.floor(Math.random() * responses.length)];
+// // mesagem pra usuario sem adm
+ export const semAdm = () => { const responses = ["Opa você se sente adm? 🤨", "Vou chamar os adms pra ver se deixam você usar esse comando aguarde sentado kkk", "Interage mais com o grupo; quem sabe um dia você vira adm 😂", "Você não é ADM, mas é engraçado tentando ser 😂", "Permissão insuficiente! Volte quando tiver o cargo de adm 💋", "O adm de verdade ligou e mandou avisar não mexe nisso ☎️"];
+  return responses[Math.floor(Math.random() * responses.length)];
 };
 
-//﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏ precisa se adm
-export const botAdm = () => { 
-const responses = ["🪄 Magia falhou... porque o bot não é ADM ✨😂", "🤷‍♀️ Sem minha farda de ADM, não dá pra mexer nisso..", "🧠 Sistema diz: 'bot sem ADM = comando impossível' 🤯", "🧃 Me dá um suquinho de ADM e eu faço 🍹😂", "🙆‍♀️ Sem crachá de ADM, eu só posso olhar 😏", "🐧 Quero voar nesse comando, mas preciso ser ADM 🐧❄️", "🧊 Comando congelado! Eu não sou ADM ❄️","🧩 Peça faltando: ADM no bot 🧩😅", "🧃 Sem meu suquinho de ADM, não posso fazer nada 🍹😂", "📞 Ligação pra chefia bot precisa ser ADM pra isso ☎️😂",  "💅 Sem meu glamour de ADM, nada acontece 💄✨", "🪅 Surpresa! Nada aconteceu, bot precisa ser ADM 🎉😂", "🧞‍♀️ Desejo negado bot precisa de ADM 🧞‍♂️", "🐒 Curioso bot aqui... sem ADM, sem ação 🐵", "🧃 Suquinho de ADM necessário para prosseguir 🍹🤣"];
-return responses[Math.floor(Math.random() * responses.length)];
+// // MESAGEM DE ERRORS
+ export const error = () => { const responses = ["Eita, deu ruim por aqui kkk tenta de novo", "Opa, buguei bonito agora tenta mais tarde", "Calma que até o bot dá umas travadas as vezes tenta mas tarde...", "Ih, fiz besteira aqui tenta mais uma vez", "Deu erro, mas pelo menos foi com estilo 😎 tenta de novo", "Pera aí que meu cérebro de bot deu uma engasgada 🤖", "Que vergonha, deu erro tenta de novo daqui a pouco 😭", "Opa, não era pra acontecer isso não kkk tenta outra vez","Deu ruim aqui, chama o dono da bot antes que eu piore tudo 😂"];
+  return responses[Math.floor(Math.random() * responses.length)];
 };
 
-//﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏ So em grupo
-export const apenasGrupo = () => {
-  const responses = ["🚫 Ops! Esse comando só funciona em grupo...", "⚠️ Alerta comando exclusivo para grupos! 🪄", "🙆‍♀️ Sem grupo, não dá pra executar...", "🛡️ Proteção ativada! Comando só pra grupo 🛡️", "📛 Sem grupo, só posso olhar 😏", "💣 Boom! Comando explodiu porque não tem grupo 💥",  "🧞‍♂️ Gênio bot precisa de grupo para conceder desejos 🪄🤷‍♀️", "🚔 Polícia dos bots diz esse comando só em grupo 🚨😂", "🧊 Comando congelado! Fora do grupo ❄️", "🧙‍♂️ Feitiço falhou falta grupo 🧙‍♀️✨", "🦜 Bot querendo falar, mas precisa de grupo 🦜", "📞 Ligação pra chefia precisa de grupo ☎️😂", "🦥 Lentamente percebendo que sem grupo não dá 🦥💤",  "🪄 Transformei em nada porque não tem grupo ✨"]; return responses[Math.floor(Math.random() * responses.length)];
+// /// MESAGEM DE PROPRIETÁRIOS 
+ export const dono = () => { const responses = ["Opa, você tá na lista de donos? 🤷", "😏 Tá achando que é o proprietário? Esse comando é só pras lendas kkk", "Curioso detectado 👀 Mas esse comando é só pros donos", "Esse comando tá mais protegido que o Wi-Fi do vizinho 🔐", "O dono ligou e mandou avisar não mexe aqui ☎️😂", "Calma influencer, esse comando ainda não é pra você 💄🤣", "Acesso negado, emocionado 😂 Só o dono pode usar", "Quase mas ainda não virou proprietário da bot não da kkk", "Só quem manda na bot pode usar esse comando 👑"];
+ return responses[Math.floor(Math.random() * responses.length)];
 };
 
-//﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏ Ban 
-export const bankk = (usuario) => {
-const responses = [`💥 ${usuario} foi de base! Nem deu tempo de pedir desculpa 😂`, `🧹 Passaram a vassoura e adivinha? ${usuario} foi junto 🫡`, `🔥 ${usuario} evaporou do grupo! Clima até melhorou 😌`, `🚀 ${usuario} foi lançado pra fora do grupo sem passagem de volta`, `🗑️ ${usuario} foi jogar no lixo… digo, foi removido do grupo`, `⚡ ${usuario} desapareceu! Obrigado ADM, fez o que todos queriam`, `😂 ${usuario} foi expulso… finalmente paz nesse grupo`];
-return responses[Math.floor(Math.random() * responses.length)]
-};
 
-//﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏ tabela 
+// // TABELA 
 export const tabelA = (nomebot) => `𝐓𝐀𝐁𝐄𝐋𝐀 𝐁𝐘: ${nomebot} 
 
 𝐓𝐀𝐁𝐄𝐋𝐀 𝐃𝐄 𝐋𝐄𝐓𝐑𝐀𝐒 🌀

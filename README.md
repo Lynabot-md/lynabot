@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Allan-2023/store/refs/heads/main/imgs/logo.png" width="700" alt="Lyna Bot Banner"/>
 </p><p align="center">
-  <img src="https://img.shields.io/badge/LYNA--BOT-3.1.8-111827?style=for-the-badge&logo=whatsapp&logoColor=white">
+  <img src="https://img.shields.io/badge/LYNA--BOT-3.1.9-111827?style=for-the-badge&logo=whatsapp&logoColor=white">
   <img src="https://img.shields.io/badge/OPEN%20SOURCE-✓-7C3AED?style=for-the-badge">
 </p><p align="center">
   <strong>🤖 O bot completo para transformar seus grupos do WhatsApp</strong>
@@ -97,7 +97,3 @@ node start.js
 ---
 
 > ⚠️ Após conectar o bot, utilize o comando `!confibot` para adicionar o dono(a), configurar funções e finalizar a configuração inicial do bot
-
->❓ Caso tenha dúvidas ou precise de suporte, entre em contato com um dos administradores do grupo
-
-👉 [**Chat Aberto / Suporte**](https://chat.whatsapp.com/I3YwkDkgW9w4CfV5X9mSwp)

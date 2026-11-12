@@ -1,7 +1,7 @@
 {
-  "antilinkgp": "🚫 Opa, #numerodele#! aqui não e permitido links de grupos e canal. tchauzinho! 👋",
+  "antilinkgp": "🔗 #numerodele#, links de outro grupo não são permitido! 👋",
  "antispam": "⚠️ #numerodele#, tá tentando brincar com o antispam? Resultado: ban na certa. 😎",
- "antilink": "🔗 #numerodele#, links não são permitidos neste grupo.",
+ "antilink": "🔗 #numerodele#, links não são permitidos neste grupo",
  "Antistatus": "📵 #numerodele#, marcar o grupo nos status deu ruim. Você foi de arrasta. 😂",
  "Antiloc": "📍 #numerodele#, envio de localização não é permitido aqui.",
  "Antisticker": "🖼️ #numerodele#, figurinhas estão bloqueadas neste grupo.",
@@ -15,6 +15,8 @@
   "AntiDoc": "📄 #numerodele#, documentos não são permitidos neste grupo.",
  "palavroes": "🤬 #numerodele# foi removido por enviar palavras proibidas.",
  "limitecaracteres": "✂️ #numerodele#, sua mensagem ultrapassou o limite de caracteres permitido.",
+ "Antievento": "📅 #numerodele# criar eventos aqui não é permitido.",
+  "anticanal": "📅 #numerodele# proibido divulgação de canal.",
 
  "grupo": { "abrir": "🛠️ CONFIGURAR PARA ABRIR/FECHAR O GRUPO\n\n⬖ ${prefix}${command} 07:00/d → de manhã\n⬖ ${prefix}${command} 02:00/t → à tarde\n⬖ ${prefix}${command} 08:00/n → à noite\n⬖ ${prefix}${command} 02:00/m → na madrugada\n\n⚠️ Sufixos obrigatórios:\n/d = dia (manhã)\n/t = tarde\n/n = noite\n/m = madrugada",
  "fort": "❌ Formato inválido!\n\n📝 Use assim:\n${prefix}${command} 07:00/d\n\n📌 Períodos:\n/d = dia (manhã)\n/t = tarde\n/n = noite\n/m = madrugada"

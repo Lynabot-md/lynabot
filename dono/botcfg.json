@@ -8,7 +8,7 @@
   "visual": "on",
   "antipv": "off",
   "lynabot": "off",
-  "hotrelo": "off",
+  "hotrelo": "on",
   "eCanal": "on",
   "blockmemb": [],
   "listanegrag": []
