@@ -277,6 +277,10 @@
 "grave":{
 "aliases":["vozmenino","bass","bass2","estourar","audiorapido","esquilo","adolesc","audiolento"],
 "texto":"* Aplica diferentes efeitos em um áudio Mencione ou responda ao áudio usando o comando para aplicar o efeito desejado\n\n* Ex: ${prefix}${nomecmd}"
+},
+"mud-bdia": {
+  "aliases": ["mud-bnoite", "mud-btarde", "mud-bmadruga"],
+  "texto": "* Altera os áudios automáticos de saudação do bot (Bom dia, Boa tarde, Boa noite e Boa madrugada)\n\n⚠️ COMO USAR (LEIA COM ATENÇÃO PARA NÃO DAR ERRO):\n1️⃣ Você deve ENVIAR ou MARCAR (RESPONDER) um áudio junto com o comando\n2️⃣ O áudio DEVE ter no MÁXIMO 30 segundos\n3️⃣ Formatos aceitos: mp3, m4a, aac, ogg, opus, wav ou flac\n4️⃣ Comando exclusivo para o DONO do bot\n\n* Ex: ${prefix}mud-bdia\n* Ex:  ${prefix}mud-bnoite\n* Ex: ${prefix}mud-btarde\n* Ex: ${prefix}mud-bmadruga"
 }
 
 }
