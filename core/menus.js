@@ -56,6 +56,7 @@ return  `​​​​​​​​​​​​​​​​​​​​​​​�
 𑣲 ${prefix}roubar • roubar
 𑣲 ${prefix}emojimix • emoji/emoji
 𑣲 ${prefix}attp • texto/ate 10
+𑣲 ${prefix}s2 • img/gif/aud/vid
 
 *﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏*
 
