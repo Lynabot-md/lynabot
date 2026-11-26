@@ -1,5 +1,10 @@
 {
 
+"s2": {
+  "texto": "* Cria uma figurinha com áudio integrado, transformando imagem, GIF ou vídeo em uma AudioSticker\n\n* Imagem: marque uma imagem e envie um áudio em até 20 segundos ou informe o nome de um meme para buscar um áudio automaticamente\n\n* Vídeo/GIF: marque um vídeo ou GIF com áudio para extrair o som automaticamente Se não tiver áudio, envie um áudio em até 20 segundos\n\n* Áudio: marque um áudio e depois envie uma imagem, GIF ou vídeo em até 20 segundos\n\n* Ex: *${prefix}s2* Lula"
+},
+
+
 "twitter": {
   "texto": "* Baixa vídeos ou mídias do Twitter/X pelo link enviado\n\n* Ex: *${prefix}twitter* (url do tweet)"
 },
